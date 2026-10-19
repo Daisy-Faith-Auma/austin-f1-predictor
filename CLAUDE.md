@@ -76,3 +76,9 @@ The 2026 season brought new chassis and power-unit regulations, so the competiti
 - Identify drivers by their three-letter FastF1 abbreviation (`VER`, `HAM`, ...) and teams by FastF1's `TeamName`.
 - Driver line-ups changed for 2026, so map history by driver, not by car number or seat.
 - Keep functions small and testable. Loading data, building features, fitting the model, and simulating should be separate modules in `src/`.
+
+## Workflow
+
+- Repo: https://github.com/Daisy-Faith-Auma/austin-f1-predictor (remote `origin`, branch `main`).
+- After each completed step, commit with a descriptive message and push to `origin main`.
+- Never commit anything in `data/`, `cache/` or `.venv/`. Check `git status` before committing and stage files by name rather than `git add -A`.
