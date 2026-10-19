@@ -29,14 +29,14 @@ RANDOM_STATE = 0
 
 PRE_QUALI_FEATURES = [
     "avg_finish_prev5",
-    "points_before",
+    "points_share_before",
     "team_avg_finish_prev5",
     "dnf_rate_before",
-    "usgp_best_finish",
-    "no_usgp_history",
-    "prev_races",
 ]
-POST_QUALI_FEATURES = PRE_QUALI_FEATURES + ["grid_position", "quali_gap_s", "no_quali_time"]
+# prev_races improved the post-qualifying backtest (gradient boosting log loss ~0.05 lower)
+# but made no difference pre-qualifying, so only the post-qualifying model uses it.
+POST_QUALI_FEATURES = PRE_QUALI_FEATURES + [
+    "prev_races", "grid_position", "quali_gap_s", "no_quali_time"]
 
 VERSIONS = {
     "pre_quali": {"stage": "pre-qualifying", "features": PRE_QUALI_FEATURES},

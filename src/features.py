@@ -18,7 +18,6 @@ SEASON = 2026
 FORM_WINDOW = 5                 # races used for driver and team rolling form
 FILL_AVG_FINISH = 11.5          # mid-grid of 22 cars; used when there is no earlier race
 NO_QUALI_TIME_PENALTY_S = 1.0   # added to the slowest gap in that session
-FILL_USGP_BEST = 21             # one worse than last place in the 20-car 2023-2025 fields
 
 ID_COLUMNS = ["Year", "Round", "EventName", "Abbreviation", "TeamName"]
 FEATURE_COLUMNS = [
@@ -26,11 +25,9 @@ FEATURE_COLUMNS = [
     "quali_gap_s",
     "no_quali_time",
     "avg_finish_prev5",
-    "points_before",
+    "points_share_before",
     "team_avg_finish_prev5",
     "dnf_rate_before",
-    "usgp_best_finish",
-    "no_usgp_history",
     "prev_races",
 ]
 TARGET = "won"
@@ -41,8 +38,7 @@ def load_inputs():
     race = pd.read_csv(data / f"{SEASON}_race_results.csv")
     quali = pd.read_csv(data / f"{SEASON}_qualifying_results.csv")
     standings = pd.read_csv(data / f"{SEASON}_driver_standings.csv")
-    usgp = pd.read_csv(data / "usgp_history_race_results.csv")
-    return race, quali, standings, usgp
+    return race, quali, standings
 
 
 def is_dnf(classified_position):
@@ -107,33 +103,28 @@ def add_team_form(df):
                     on=["TeamName", "Round"], how="left")
 
 
-def add_points_before(df, standings):
-    """Official championship points (incl. sprints) after the previous round; 0 before round 1."""
-    prev = standings[["Round", "driverCode", "points"]].rename(
-        columns={"driverCode": "Abbreviation", "points": "points_before"})
+def add_points_share_before(df, standings):
+    """Official points (incl. sprints) / leader's points, after the previous round.
+
+    A share stays on the same 0-1 scale all season, unlike raw points. 0 before round 1.
+    """
+    prev = standings[["Round", "driverCode", "points"]].copy()
+    prev["points_share_before"] = prev["points"] / prev.groupby("Round")["points"].transform("max")
+    prev = prev.rename(columns={"driverCode": "Abbreviation"})
     prev["Round"] = prev["Round"] + 1
-    df = df.merge(prev, on=["Round", "Abbreviation"], how="left")
-    df["points_before"] = df["points_before"].fillna(0.0)
-    return df
-
-
-def add_usgp_history(df, usgp):
-    """Best US GP finish 2023-2025 (all before 2026, so no leakage). No history -> fill + flag."""
-    best = usgp.groupby("Abbreviation")["Position"].min().rename("usgp_best_finish")
-    df = df.merge(best, left_on="Abbreviation", right_index=True, how="left")
-    df["no_usgp_history"] = df["usgp_best_finish"].isna().astype(int)
-    df["usgp_best_finish"] = df["usgp_best_finish"].fillna(FILL_USGP_BEST).astype(int)
+    df = df.merge(prev[["Round", "Abbreviation", "points_share_before"]],
+                  on=["Round", "Abbreviation"], how="left")
+    df["points_share_before"] = df["points_share_before"].fillna(0.0)
     return df
 
 
 def build_features():
-    race, quali, standings, usgp = load_inputs()
+    race, quali, standings = load_inputs()
     df = base_table(race)
     df = add_quali_gap(df, quali)
     df = add_driver_form(df)
     df = add_team_form(df)
-    df = add_points_before(df, standings)
-    df = add_usgp_history(df, usgp)
+    df = add_points_share_before(df, standings)
     df = df.sort_values(["Round", "grid_position"]).reset_index(drop=True)
     return df[ID_COLUMNS + FEATURE_COLUMNS + [TARGET]]
 

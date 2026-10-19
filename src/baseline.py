@@ -20,8 +20,8 @@ EVAL_ROUNDS = range(6, 18)
 # later sort columns only break ties. Pre-qualifying baselines must not use grid/quali data.
 BASELINES = {
     "pole_sitter": ("post-qualifying", ["quali_gap_s", "no_quali_time"], [True, True]),
-    "best_5_race_avg_finish": ("pre-qualifying", ["avg_finish_prev5", "points_before"], [True, False]),
-    "championship_leader": ("pre-qualifying", ["points_before", "avg_finish_prev5"], [False, True]),
+    "best_5_race_avg_finish": ("pre-qualifying", ["avg_finish_prev5", "points_share_before"], [True, False]),
+    "championship_leader": ("pre-qualifying", ["points_share_before", "avg_finish_prev5"], [False, True]),
 }
 
 

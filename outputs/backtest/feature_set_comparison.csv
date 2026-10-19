@@ -1,0 +1,5 @@
+stage,model,top1_old,top3_old,log_loss_old,top1_new,top3_new,log_loss_new,log_loss_change
+pre-qualifying,logistic_regression,4,7,2.263,4,7,2.092,-0.171
+pre-qualifying,gradient_boosting,3,5,2.796,1,7,2.591,-0.205
+post-qualifying,logistic_regression,4,10,1.934,4,11,1.782,-0.152
+post-qualifying,gradient_boosting,7,10,1.842,7,11,1.573,-0.269
