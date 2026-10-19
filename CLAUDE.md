@@ -13,6 +13,7 @@ src/       All Python code (data loading, features, model, simulation, CLI entry
 data/      Raw and processed data (git-ignored)
 cache/     FastF1 cache (git-ignored)
 outputs/   Generated predictions, plots, and backtest reports
+notebooks/ Exploratory Jupyter notebooks (kernel: "Python 3.12 (austin-f1-predictor .venv)")
 ```
 
 - Put code in `src/` only. No scripts at the repo root.
