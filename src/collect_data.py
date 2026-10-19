@@ -1,7 +1,7 @@
 """Download race and qualifying data with FastF1 and save it as CSV in data/.
 
 Usage:
-    .venv/bin/python src/collect_data.py            # 2026 season + US GP history
+    .venv/bin/python src/collect_data.py            # 2026 season, standings + US GP history
     .venv/bin/python src/collect_data.py --weekend  # 2026 US GP weekend sessions
 """
 
@@ -12,6 +12,7 @@ from pathlib import Path
 
 import fastf1
 import pandas as pd
+from fastf1.ergast import Ergast
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from src import config  # noqa: E402  (enables the FastF1 cache on import)
@@ -124,6 +125,29 @@ def collect_usgp_history(years=USGP_HISTORY_YEARS, summary=None):
     return summary
 
 
+def collect_driver_standings(year=SEASON, summary=None):
+    """Official driver standings (including sprint points) after each completed round."""
+    summary = summary or Summary()
+    ergast = Ergast()
+    frames = []
+    for round_number in completed_rounds(year)["RoundNumber"]:
+        label = f"{year} round {round_number} driver standings"
+        try:
+            standings = ergast.get_driver_standings(year, round=int(round_number)).content[0]
+        except Exception as exc:  # network errors, rate limits, round not published yet
+            summary.failed.append(f"{label}: {type(exc).__name__}: {exc}")
+            continue
+        standings = standings[["position", "driverCode", "points", "wins"]].copy()
+        standings.insert(0, "Round", round_number)
+        standings.insert(0, "Year", year)
+        frames.append(standings)
+    if frames:
+        path = config.DATA_DIR / f"{year}_driver_standings.csv"
+        pd.concat(frames, ignore_index=True).to_csv(path, index=False)
+        summary.saved.append(f"{path.relative_to(config.PROJECT_ROOT)} ({len(frames)} rounds)")
+    return summary
+
+
 def collect_usgp_2026_weekend(summary=None):
     """FP1, FP2, FP3 and qualifying for the 2026 US GP: laps and results per session.
 
@@ -152,6 +176,7 @@ def main():
         collect_usgp_2026_weekend(summary)
     else:
         collect_season_results(SEASON, summary)
+        collect_driver_standings(SEASON, summary)
         collect_usgp_history(USGP_HISTORY_YEARS, summary)
     summary.print()
 
