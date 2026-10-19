@@ -4,6 +4,9 @@ Usage:
     .venv/bin/python src/predict.py --stage pre    # now: season form only
     .venv/bin/python src/predict.py --stage post   # after qualifying (Oct 24, 21:00 UTC)
 
+Post-qualifying probabilities are temperature-scaled with outputs/calibration_post_quali.json
+(from src/calibrate.py); pass --no-calibration to skip that.
+
 Writes outputs/prediction_<pre|post>_quali.csv and a top-10 bar chart .png.
 """
 
@@ -20,6 +23,7 @@ import pandas as pd  # noqa: E402
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from src import config  # noqa: E402
+from src.calibrate import apply_temperature, load_temperature  # noqa: E402
 from src.collect_data import Summary, collect_usgp_2026_weekend  # noqa: E402
 from src.features import SEASON, build_features, load_inputs  # noqa: E402
 from src.model import predict_race_probs  # noqa: E402
@@ -85,7 +89,7 @@ def post_quali_grid(quali_usgp, lineup):
     return entries.reset_index(drop=True), grid
 
 
-def build_prediction(stage):
+def build_prediction(stage, calibrated=True):
     race, quali, standings = load_inputs()
     round_number = int(race["Round"].max()) + 1
     lineup = latest_lineup(race)
@@ -107,13 +111,20 @@ def build_prediction(stage):
 
     bundle = load_model(stage)
     rows["win_prob"] = predict_race_probs(bundle["model"], rows, bundle["features"])
+    bundle["temperature"] = None
+    if stage == "post" and calibrated:
+        bundle["temperature"] = load_temperature(bundle["model_name"])
+        rows["win_prob_uncalibrated"] = rows["win_prob"]
+        rows["win_prob"] = apply_temperature(rows["win_prob"], bundle["temperature"])
     rows = rows.sort_values("win_prob", ascending=False).reset_index(drop=True)
     rows.insert(0, "rank", range(1, len(rows) + 1))
     rows["stage"] = f"{stage}_qualifying"
     rows["model"] = bundle["model_name"]
     rows["generated_utc"] = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
-    cols = ["rank", "Abbreviation", "TeamName", "win_prob", *bundle["features"],
-            "stage", "model", "generated_utc"]
+    rows["temperature"] = bundle["temperature"]
+    extra = ["win_prob_uncalibrated"] if "win_prob_uncalibrated" in rows else []
+    cols = ["rank", "Abbreviation", "TeamName", "win_prob", *extra, *bundle["features"],
+            "stage", "model", "temperature", "generated_utc"]
     out = rows[cols].rename(columns={"Abbreviation": "driver", "TeamName": "team"})
     return out, bundle, round_number
 
@@ -140,9 +151,12 @@ def plot_top(prediction, stage, bundle, path):
     stage_label = "pre-qualifying" if stage == "pre" else "post-qualifying"
     fig.text(0.02, 0.965, f"2026 US Grand Prix: win probability ({stage_label}), top {TOP_N_CHART}",
              ha="left", va="top", fontsize=12, color=TEXT_PRIMARY, fontweight="bold")
-    fig.text(0.02, 0.915, f"{bundle['model_name'].replace('_', ' ')} trained on rounds 1-"
-             f"{max(bundle['trained_on_rounds'])}; all {len(prediction)} drivers sum to 100%",
-             ha="left", va="top", fontsize=9, color=TEXT_SECONDARY)
+    subtitle = (f"{bundle['model_name'].replace('_', ' ')} trained on rounds 1-"
+                f"{max(bundle['trained_on_rounds'])}")
+    if bundle["temperature"]:
+        subtitle += f", temperature-calibrated (T={bundle['temperature']:.2f})"
+    subtitle += f"; all {len(prediction)} drivers sum to 100%"
+    fig.text(0.02, 0.915, subtitle, ha="left", va="top", fontsize=9, color=TEXT_SECONDARY)
     fig.tight_layout(rect=(0, 0, 1, 0.88))
     fig.savefig(path, facecolor=SURFACE)
     plt.close(fig)
@@ -151,16 +165,19 @@ def plot_top(prediction, stage, bundle, path):
 def main():
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--stage", choices=["pre", "post"], required=True)
+    parser.add_argument("--no-calibration", action="store_true",
+                        help="post stage: skip temperature scaling")
     args = parser.parse_args()
 
-    prediction, bundle, round_number = build_prediction(args.stage)
+    prediction, bundle, round_number = build_prediction(args.stage, not args.no_calibration)
     config.OUTPUTS_DIR.mkdir(parents=True, exist_ok=True)
     csv_path = config.OUTPUTS_DIR / f"prediction_{args.stage}_quali.csv"
     png_path = config.OUTPUTS_DIR / f"prediction_{args.stage}_quali.png"
     prediction.to_csv(csv_path, index=False)
     plot_top(prediction, args.stage, bundle, png_path)
 
-    print(f"\nRound {round_number} US GP, {args.stage}-qualifying ({bundle['model_name']}), "
+    calibration = f", T={bundle['temperature']:.2f}" if bundle["temperature"] else ""
+    print(f"\nRound {round_number} US GP, {args.stage}-qualifying ({bundle['model_name']}{calibration}), "
           f"{len(prediction)} drivers, probabilities sum to {prediction['win_prob'].sum():.3f}")
     print(prediction.head(5)[["rank", "driver", "team", "win_prob"]]
           .assign(win_prob=lambda d: d["win_prob"].map("{:.1%}".format)).to_string(index=False))

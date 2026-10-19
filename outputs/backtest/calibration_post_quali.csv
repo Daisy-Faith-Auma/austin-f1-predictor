@@ -1,0 +1,4 @@
+predictions,log_loss,avg_winner_prob,avg_pole_sitter_prob,max_prob,pole_sitter_win_rate
+uncalibrated,1.573,0.47,0.688,0.974,0.667
+"calibrated, T=1.34 fitted on all 12 races (in-sample)",1.466,0.391,0.561,0.871,0.667
+"calibrated, leave-one-race-out T (out-of-sample)",1.593,0.376,0.556,0.951,0.667
