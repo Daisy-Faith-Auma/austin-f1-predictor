@@ -27,15 +27,20 @@ from src.baseline import EVAL_ROUNDS, evaluate as evaluate_baselines  # noqa: E4
 TARGET = "won"
 RANDOM_STATE = 0
 
-PRE_QUALI_FEATURES = [
+SEASON_FEATURES = [
     "avg_finish_prev5",
     "points_share_before",
     "team_avg_finish_prev5",
     "dnf_rate_before",
 ]
-# prev_races improved the post-qualifying backtest (gradient boosting log loss ~0.05 lower)
-# but made no difference pre-qualifying, so only the post-qualifying model uses it.
-POST_QUALI_FEATURES = PRE_QUALI_FEATURES + [
+# Feature choices are backtest-driven (walk-forward log loss on the winner, rounds 6-17):
+# - form_ewm improved pre-qualifying logistic regression (2.092 -> 2.061) but worsened
+#   post-qualifying gradient boosting (1.573 -> 1.588), so only the pre model uses it.
+# - prev_races made no difference pre-qualifying. Post-qualifying it still beats the
+#   0.02 threshold after calibration (leave-one-race-out 1.593 with vs 1.622 without),
+#   so it stays despite COTA's value (17) sitting at the edge of the training range.
+PRE_QUALI_FEATURES = SEASON_FEATURES + ["form_ewm"]
+POST_QUALI_FEATURES = SEASON_FEATURES + [
     "prev_races", "grid_position", "quali_gap_s", "no_quali_time"]
 
 VERSIONS = {

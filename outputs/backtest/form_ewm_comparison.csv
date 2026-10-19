@@ -1,0 +1,13 @@
+stage,features,model,top1,top3,log_loss,log_loss_calibrated_loro
+pre,current,logistic_regression,4,7,2.092,
+pre,current,gradient_boosting,1,7,2.591,
+post,current,logistic_regression,4,11,1.782,2.301
+post,current,gradient_boosting,7,11,1.573,1.593
+pre,+form_ewm h=2,logistic_regression,3,8,2.061,
+pre,+form_ewm h=2,gradient_boosting,2,6,2.549,
+post,+form_ewm h=2,logistic_regression,5,10,1.766,2.301
+post,+form_ewm h=2,gradient_boosting,7,11,1.588,1.607
+pre,+form_ewm h=3,logistic_regression,4,8,2.076,
+pre,+form_ewm h=3,gradient_boosting,1,6,2.614,
+post,+form_ewm h=3,logistic_regression,4,11,1.78,2.304
+post,+form_ewm h=3,gradient_boosting,7,11,1.584,1.608

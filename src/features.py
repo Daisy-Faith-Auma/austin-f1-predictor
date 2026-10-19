@@ -16,6 +16,7 @@ from src import config  # noqa: E402
 
 SEASON = 2026
 FORM_WINDOW = 5                 # races used for driver and team rolling form
+FORM_EWM_HALFLIFE = 2           # races; beat a half-life of 3 in the pre-qualifying backtest
 FILL_AVG_FINISH = 11.5          # mid-grid of 22 cars; used when there is no earlier race
 NO_QUALI_TIME_PENALTY_S = 1.0   # added to the slowest gap in that session
 
@@ -25,6 +26,7 @@ FEATURE_COLUMNS = [
     "quali_gap_s",
     "no_quali_time",
     "avg_finish_prev5",
+    "form_ewm",
     "points_share_before",
     "team_avg_finish_prev5",
     "dnf_rate_before",
@@ -82,6 +84,13 @@ def add_driver_form(df):
         prev_finish.groupby(df["Abbreviation"])
         .rolling(FORM_WINDOW, min_periods=1).mean()
         .reset_index(level=0, drop=True)
+        .fillna(FILL_AVG_FINISH)
+    )
+    # Exponentially weighted finish over all earlier races; a race FORM_EWM_HALFLIFE races
+    # back counts half as much as the most recent one.
+    df["form_ewm"] = (
+        prev_finish.groupby(df["Abbreviation"])
+        .transform(lambda s: s.ewm(halflife=FORM_EWM_HALFLIFE).mean())
         .fillna(FILL_AVG_FINISH)
     )
     df["dnf_rate_before"] = (

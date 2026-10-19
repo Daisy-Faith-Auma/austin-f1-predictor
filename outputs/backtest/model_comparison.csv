@@ -1,5 +1,5 @@
 version,stage,model,races,top1,top1_pct,top3,top3_pct,avg_winner_prob,log_loss
-pre_quali,pre-qualifying,logistic_regression,12,4,33.3,7,58.3,0.154,2.092
-pre_quali,pre-qualifying,gradient_boosting,12,1,8.3,7,58.3,0.171,2.591
+pre_quali,pre-qualifying,logistic_regression,12,3,25.0,8,66.7,0.159,2.061
+pre_quali,pre-qualifying,gradient_boosting,12,2,16.7,6,50.0,0.17,2.549
 post_quali,post-qualifying,logistic_regression,12,4,33.3,11,91.7,0.272,1.782
 post_quali,post-qualifying,gradient_boosting,12,7,58.3,11,91.7,0.47,1.573
