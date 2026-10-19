@@ -6,8 +6,8 @@ Usage:
 Fits one temperature T on the walk-forward backtest predictions in
 outputs/backtest/predictions.csv, where each race was predicted by a model trained only on
 earlier rounds. Within a race, calibrated p_i = p_i^(1/T) / sum_j p_j^(1/T); T > 1 softens
-overconfident predictions. Writes outputs/calibration_post_quali.json (read by
-src/predict.py --stage post) and outputs/backtest/calibration_post_quali.csv.
+overconfident predictions. Writes outputs/calibration_post_quali.json (used by
+src/predict.py --stage post --calibrated) and outputs/backtest/calibration_post_quali.csv.
 
 Re-run after src/model.py, since the backtest predictions and saved model change together.
 """
@@ -98,7 +98,7 @@ def load_temperature(model_name):
     """Saved temperature for the post-qualifying model; errors if it was fitted to a different model."""
     if not CALIBRATION_PATH.exists():
         sys.exit(f"{CALIBRATION_PATH.relative_to(config.PROJECT_ROOT)} not found. "
-                 "Run src/calibrate.py first, or pass --no-calibration.")
+                 "Run src/calibrate.py first, or drop --calibrated.")
     with open(CALIBRATION_PATH) as f:
         calibration = json.load(f)
     if calibration["model_name"] != model_name:

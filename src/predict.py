@@ -4,8 +4,9 @@ Usage:
     .venv/bin/python src/predict.py --stage pre    # now: season form only
     .venv/bin/python src/predict.py --stage post   # after qualifying (Oct 24, 21:00 UTC)
 
-Post-qualifying probabilities are temperature-scaled with outputs/calibration_post_quali.json
-(from src/calibrate.py); pass --no-calibration to skip that.
+Post-qualifying probabilities are uncalibrated by default: temperature scaling didn't improve
+the leave-one-race-out backtest (log loss 1.593 vs 1.573 uncalibrated). Pass --calibrated to
+apply the temperature in outputs/calibration_post_quali.json (from src/calibrate.py).
 
 Writes outputs/prediction_<pre|post>_quali.csv and a top-10 bar chart .png.
 """
@@ -89,7 +90,7 @@ def post_quali_grid(quali_usgp, lineup):
     return entries.reset_index(drop=True), grid
 
 
-def build_prediction(stage, calibrated=True):
+def build_prediction(stage, calibrated=False):
     race, quali, standings = load_inputs()
     round_number = int(race["Round"].max()) + 1
     lineup = latest_lineup(race)
@@ -165,11 +166,11 @@ def plot_top(prediction, stage, bundle, path):
 def main():
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--stage", choices=["pre", "post"], required=True)
-    parser.add_argument("--no-calibration", action="store_true",
-                        help="post stage: skip temperature scaling")
+    parser.add_argument("--calibrated", action="store_true",
+                        help="post stage: apply temperature scaling (off by default)")
     args = parser.parse_args()
 
-    prediction, bundle, round_number = build_prediction(args.stage, not args.no_calibration)
+    prediction, bundle, round_number = build_prediction(args.stage, args.calibrated)
     config.OUTPUTS_DIR.mkdir(parents=True, exist_ok=True)
     csv_path = config.OUTPUTS_DIR / f"prediction_{args.stage}_quali.csv"
     png_path = config.OUTPUTS_DIR / f"prediction_{args.stage}_quali.png"
