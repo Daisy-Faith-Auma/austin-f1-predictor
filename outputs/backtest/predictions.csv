@@ -1,0 +1,1057 @@
+Round,EventName,Abbreviation,TeamName,win_prob,rank,won,version,model
+6,Monaco Grand Prix,ANT,Mercedes,0.7637780296656815,1,1,pre_quali,logistic_regression
+6,Monaco Grand Prix,VER,Red Bull,0.00318960918342023,11,0,pre_quali,logistic_regression
+6,Monaco Grand Prix,HAM,Ferrari,0.059761600222210325,3,0,pre_quali,logistic_regression
+6,Monaco Grand Prix,LEC,Ferrari,0.03891779965726458,4,0,pre_quali,logistic_regression
+6,Monaco Grand Prix,HAD,Red Bull,0.0074610386622640775,5,0,pre_quali,logistic_regression
+6,Monaco Grand Prix,RUS,Mercedes,0.09206805434021836,2,0,pre_quali,logistic_regression
+6,Monaco Grand Prix,PIA,McLaren,0.00425685059803296,9,0,pre_quali,logistic_regression
+6,Monaco Grand Prix,NOR,McLaren,0.004035645405557228,10,0,pre_quali,logistic_regression
+6,Monaco Grand Prix,GAS,Alpine F1 Team,0.002576132106248543,13,0,pre_quali,logistic_regression
+6,Monaco Grand Prix,LAW,RB F1 Team,0.002489514425351924,14,0,pre_quali,logistic_regression
+6,Monaco Grand Prix,ALB,Williams,0.0005203537490137013,18,0,pre_quali,logistic_regression
+6,Monaco Grand Prix,SAI,Williams,0.00045339875166443386,19,0,pre_quali,logistic_regression
+6,Monaco Grand Prix,HUL,Audi,0.0005293464447058432,17,0,pre_quali,logistic_regression
+6,Monaco Grand Prix,COL,Alpine F1 Team,0.0048629893609408595,7,0,pre_quali,logistic_regression
+6,Monaco Grand Prix,LIN,RB F1 Team,0.0014013697099673052,15,0,pre_quali,logistic_regression
+6,Monaco Grand Prix,BOR,Audi,0.00434887091769437,8,0,pre_quali,logistic_regression
+6,Monaco Grand Prix,OCO,Haas F1 Team,0.0049151794227607,6,0,pre_quali,logistic_regression
+6,Monaco Grand Prix,PER,Cadillac F1 Team,0.00017913960480086784,21,0,pre_quali,logistic_regression
+6,Monaco Grand Prix,BEA,Haas F1 Team,0.003137388199156809,12,0,pre_quali,logistic_regression
+6,Monaco Grand Prix,BOT,Cadillac F1 Team,0.0006599016243701136,16,0,pre_quali,logistic_regression
+6,Monaco Grand Prix,ALO,Aston Martin,0.00028765195100933887,20,0,pre_quali,logistic_regression
+6,Monaco Grand Prix,STR,Aston Martin,0.00017013599766577998,22,0,pre_quali,logistic_regression
+7,Barcelona Grand Prix,RUS,Mercedes,0.03839320402644454,3,0,pre_quali,logistic_regression
+7,Barcelona Grand Prix,HAM,Ferrari,0.06215811454919806,2,1,pre_quali,logistic_regression
+7,Barcelona Grand Prix,ANT,Mercedes,0.842734233339749,1,0,pre_quali,logistic_regression
+7,Barcelona Grand Prix,NOR,McLaren,0.0014150868800675597,13,0,pre_quali,logistic_regression
+7,Barcelona Grand Prix,VER,Red Bull,0.0010976049195599706,15,0,pre_quali,logistic_regression
+7,Barcelona Grand Prix,HAD,Red Bull,0.014231936776687479,4,0,pre_quali,logistic_regression
+7,Barcelona Grand Prix,PIA,McLaren,0.006319951331696019,6,0,pre_quali,logistic_regression
+7,Barcelona Grand Prix,LAW,RB F1 Team,0.00345880092334965,10,0,pre_quali,logistic_regression
+7,Barcelona Grand Prix,HUL,Audi,0.00047926478576058894,16,0,pre_quali,logistic_regression
+7,Barcelona Grand Prix,LEC,Ferrari,0.012080340797557125,5,0,pre_quali,logistic_regression
+7,Barcelona Grand Prix,LIN,RB F1 Team,0.0016343425364134035,12,0,pre_quali,logistic_regression
+7,Barcelona Grand Prix,BOR,Audi,0.003675569610220991,9,0,pre_quali,logistic_regression
+7,Barcelona Grand Prix,COL,Alpine F1 Team,0.0036771791791859886,8,0,pre_quali,logistic_regression
+7,Barcelona Grand Prix,GAS,Alpine F1 Team,0.0023186505517839577,11,0,pre_quali,logistic_regression
+7,Barcelona Grand Prix,BEA,Haas F1 Team,0.0010990394206516663,14,0,pre_quali,logistic_regression
+7,Barcelona Grand Prix,SAI,Williams,0.00029346750394590204,19,0,pre_quali,logistic_regression
+7,Barcelona Grand Prix,OCO,Haas F1 Team,0.0036830210409183554,7,0,pre_quali,logistic_regression
+7,Barcelona Grand Prix,ALB,Williams,0.0004272885323639324,17,0,pre_quali,logistic_regression
+7,Barcelona Grand Prix,PER,Cadillac F1 Team,0.00010879715105088357,21,0,pre_quali,logistic_regression
+7,Barcelona Grand Prix,BOT,Cadillac F1 Team,0.00036240082119080505,18,0,pre_quali,logistic_regression
+7,Barcelona Grand Prix,STR,Aston Martin,9.336175687231594e-05,22,0,pre_quali,logistic_regression
+7,Barcelona Grand Prix,ALO,Aston Martin,0.0002583435653317779,20,0,pre_quali,logistic_regression
+8,Austrian Grand Prix,RUS,Mercedes,0.06146389136001535,3,1,pre_quali,logistic_regression
+8,Austrian Grand Prix,LEC,Ferrari,0.01736932852678789,6,0,pre_quali,logistic_regression
+8,Austrian Grand Prix,HAM,Ferrari,0.14184282470400034,2,0,pre_quali,logistic_regression
+8,Austrian Grand Prix,ANT,Mercedes,0.6088283539116447,1,0,pre_quali,logistic_regression
+8,Austrian Grand Prix,VER,Red Bull,0.007805865475160532,13,0,pre_quali,logistic_regression
+8,Austrian Grand Prix,NOR,McLaren,0.011197572723739944,9,0,pre_quali,logistic_regression
+8,Austrian Grand Prix,PIA,McLaren,0.0394671676128233,5,0,pre_quali,logistic_regression
+8,Austrian Grand Prix,HAD,Red Bull,0.04220175754784078,4,0,pre_quali,logistic_regression
+8,Austrian Grand Prix,LAW,RB F1 Team,0.01117242048739454,10,0,pre_quali,logistic_regression
+8,Austrian Grand Prix,LIN,RB F1 Team,0.004483038260830382,14,0,pre_quali,logistic_regression
+8,Austrian Grand Prix,GAS,Alpine F1 Team,0.008731322020814752,12,0,pre_quali,logistic_regression
+8,Austrian Grand Prix,BOR,Audi,0.01330424455080959,8,0,pre_quali,logistic_regression
+8,Austrian Grand Prix,BEA,Haas F1 Team,0.0018983727629885829,15,0,pre_quali,logistic_regression
+8,Austrian Grand Prix,HUL,Audi,0.001259018828366931,18,0,pre_quali,logistic_regression
+8,Austrian Grand Prix,OCO,Haas F1 Team,0.010425818533794984,11,0,pre_quali,logistic_regression
+8,Austrian Grand Prix,COL,Alpine F1 Team,0.01366133511590986,7,0,pre_quali,logistic_regression
+8,Austrian Grand Prix,SAI,Williams,0.001595041377261694,16,0,pre_quali,logistic_regression
+8,Austrian Grand Prix,ALB,Williams,0.0014044256108748981,17,0,pre_quali,logistic_regression
+8,Austrian Grand Prix,PER,Cadillac F1 Team,0.0004899078798707048,21,0,pre_quali,logistic_regression
+8,Austrian Grand Prix,BOT,Cadillac F1 Team,0.0006251113327969541,19,0,pre_quali,logistic_regression
+8,Austrian Grand Prix,ALO,Aston Martin,0.0005653915084105474,20,0,pre_quali,logistic_regression
+8,Austrian Grand Prix,STR,Aston Martin,0.00020778986786294847,22,0,pre_quali,logistic_regression
+9,British Grand Prix,ANT,Mercedes,0.513968862557232,1,0,pre_quali,logistic_regression
+9,British Grand Prix,LEC,Ferrari,0.02366349073624489,6,1,pre_quali,logistic_regression
+9,British Grand Prix,HAM,Ferrari,0.13278544730707462,2,0,pre_quali,logistic_regression
+9,British Grand Prix,RUS,Mercedes,0.11591216726388681,3,0,pre_quali,logistic_regression
+9,British Grand Prix,HAD,Red Bull,0.06442107173504863,4,0,pre_quali,logistic_regression
+9,British Grand Prix,NOR,McLaren,0.01770577179555643,8,0,pre_quali,logistic_regression
+9,British Grand Prix,VER,Red Bull,0.020016980072159973,7,0,pre_quali,logistic_regression
+9,British Grand Prix,PIA,McLaren,0.04376750890112281,5,0,pre_quali,logistic_regression
+9,British Grand Prix,LIN,RB F1 Team,0.005365608738458195,14,0,pre_quali,logistic_regression
+9,British Grand Prix,LAW,RB F1 Team,0.012349107329318466,10,0,pre_quali,logistic_regression
+9,British Grand Prix,BOR,Audi,0.011152749425114898,11,0,pre_quali,logistic_regression
+9,British Grand Prix,HUL,Audi,0.0018682011157622283,17,0,pre_quali,logistic_regression
+9,British Grand Prix,BEA,Haas F1 Team,0.0031842145036280857,15,0,pre_quali,logistic_regression
+9,British Grand Prix,SAI,Williams,0.0014232956514251115,18,0,pre_quali,logistic_regression
+9,British Grand Prix,GAS,Alpine F1 Team,0.008083030005619074,12,0,pre_quali,logistic_regression
+9,British Grand Prix,ALB,Williams,0.002050571137922606,16,0,pre_quali,logistic_regression
+9,British Grand Prix,OCO,Haas F1 Team,0.007649062153353074,13,0,pre_quali,logistic_regression
+9,British Grand Prix,BOT,Cadillac F1 Team,0.0006125838361625757,20,0,pre_quali,logistic_regression
+9,British Grand Prix,COL,Alpine F1 Team,0.012465206801750693,9,0,pre_quali,logistic_regression
+9,British Grand Prix,PER,Cadillac F1 Team,0.0004224886594048192,21,0,pre_quali,logistic_regression
+9,British Grand Prix,ALO,Aston Martin,0.00078359490496755,19,0,pre_quali,logistic_regression
+9,British Grand Prix,STR,Aston Martin,0.00034898536878644497,22,0,pre_quali,logistic_regression
+10,Belgian Grand Prix,ANT,Mercedes,0.2969717778407072,1,1,pre_quali,logistic_regression
+10,Belgian Grand Prix,VER,Red Bull,0.031083645931986963,8,0,pre_quali,logistic_regression
+10,Belgian Grand Prix,RUS,Mercedes,0.12709613968490466,3,0,pre_quali,logistic_regression
+10,Belgian Grand Prix,LEC,Ferrari,0.0847442285112455,4,0,pre_quali,logistic_regression
+10,Belgian Grand Prix,HAM,Ferrari,0.19438639922362233,2,0,pre_quali,logistic_regression
+10,Belgian Grand Prix,PIA,McLaren,0.03659760665247199,6,0,pre_quali,logistic_regression
+10,Belgian Grand Prix,LIN,RB F1 Team,0.012285976312367771,12,0,pre_quali,logistic_regression
+10,Belgian Grand Prix,BOR,Audi,0.011859940290007366,13,0,pre_quali,logistic_regression
+10,Belgian Grand Prix,LAW,RB F1 Team,0.0331150156888437,7,0,pre_quali,logistic_regression
+10,Belgian Grand Prix,GAS,Alpine F1 Team,0.0176435007493446,11,0,pre_quali,logistic_regression
+10,Belgian Grand Prix,COL,Alpine F1 Team,0.02274668921687797,10,0,pre_quali,logistic_regression
+10,Belgian Grand Prix,HUL,Audi,0.002955085499090449,16,0,pre_quali,logistic_regression
+10,Belgian Grand Prix,NOR,McLaren,0.027240423004584548,9,0,pre_quali,logistic_regression
+10,Belgian Grand Prix,BEA,Haas F1 Team,0.004725629723852117,15,0,pre_quali,logistic_regression
+10,Belgian Grand Prix,ALB,Williams,0.001559924489846185,17,0,pre_quali,logistic_regression
+10,Belgian Grand Prix,OCO,Haas F1 Team,0.00888832987200088,14,0,pre_quali,logistic_regression
+10,Belgian Grand Prix,BOT,Cadillac F1 Team,0.0010575500404854572,19,0,pre_quali,logistic_regression
+10,Belgian Grand Prix,PER,Cadillac F1 Team,0.0008376570066609078,21,0,pre_quali,logistic_regression
+10,Belgian Grand Prix,SAI,Williams,0.0015528258012918377,18,0,pre_quali,logistic_regression
+10,Belgian Grand Prix,STR,Aston Martin,0.0005193186804644723,22,0,pre_quali,logistic_regression
+10,Belgian Grand Prix,HAD,Red Bull,0.08119987636510324,5,0,pre_quali,logistic_regression
+10,Belgian Grand Prix,ALO,Aston Martin,0.0009324594142401169,20,0,pre_quali,logistic_regression
+11,Hungarian Grand Prix,NOR,McLaren,0.033399758532755085,7,1,pre_quali,logistic_regression
+11,Hungarian Grand Prix,LEC,Ferrari,0.08442948351606162,4,0,pre_quali,logistic_regression
+11,Hungarian Grand Prix,PIA,McLaren,0.04386337381426676,6,0,pre_quali,logistic_regression
+11,Hungarian Grand Prix,VER,Red Bull,0.02522902934051252,8,0,pre_quali,logistic_regression
+11,Hungarian Grand Prix,HAM,Ferrari,0.1812922308683661,2,0,pre_quali,logistic_regression
+11,Hungarian Grand Prix,RUS,Mercedes,0.09347735880669134,3,0,pre_quali,logistic_regression
+11,Hungarian Grand Prix,ANT,Mercedes,0.40348440879613207,1,0,pre_quali,logistic_regression
+11,Hungarian Grand Prix,HAD,Red Bull,0.057940505007122535,5,0,pre_quali,logistic_regression
+11,Hungarian Grand Prix,LIN,RB F1 Team,0.009681449560772682,11,0,pre_quali,logistic_regression
+11,Hungarian Grand Prix,HUL,Audi,0.0019490136573687047,16,0,pre_quali,logistic_regression
+11,Hungarian Grand Prix,LAW,RB F1 Team,0.024882157352500756,9,0,pre_quali,logistic_regression
+11,Hungarian Grand Prix,GAS,Alpine F1 Team,0.008284760478219555,13,0,pre_quali,logistic_regression
+11,Hungarian Grand Prix,COL,Alpine F1 Team,0.012088233311990122,10,0,pre_quali,logistic_regression
+11,Hungarian Grand Prix,BOR,Audi,0.009024394026592936,12,0,pre_quali,logistic_regression
+11,Hungarian Grand Prix,OCO,Haas F1 Team,0.0049571923768475705,14,0,pre_quali,logistic_regression
+11,Hungarian Grand Prix,ALO,Aston Martin,0.0005060920496815643,20,0,pre_quali,logistic_regression
+11,Hungarian Grand Prix,BEA,Haas F1 Team,0.0025509566257859374,15,0,pre_quali,logistic_regression
+11,Hungarian Grand Prix,SAI,Williams,0.0008606208090150549,18,0,pre_quali,logistic_regression
+11,Hungarian Grand Prix,ALB,Williams,0.000922776343757536,17,0,pre_quali,logistic_regression
+11,Hungarian Grand Prix,STR,Aston Martin,0.00022592847910243817,22,0,pre_quali,logistic_regression
+11,Hungarian Grand Prix,BOT,Cadillac F1 Team,0.0006167998648876519,19,0,pre_quali,logistic_regression
+11,Hungarian Grand Prix,PER,Cadillac F1 Team,0.0003334763815693395,21,0,pre_quali,logistic_regression
+12,Dutch Grand Prix,NOR,McLaren,0.05764860012665418,5,1,pre_quali,logistic_regression
+12,Dutch Grand Prix,RUS,Mercedes,0.09570075046215276,4,0,pre_quali,logistic_regression
+12,Dutch Grand Prix,ANT,Mercedes,0.3011762183001933,1,0,pre_quali,logistic_regression
+12,Dutch Grand Prix,PIA,McLaren,0.049230056378894646,8,0,pre_quali,logistic_regression
+12,Dutch Grand Prix,HAM,Ferrari,0.20050508176343518,2,0,pre_quali,logistic_regression
+12,Dutch Grand Prix,LEC,Ferrari,0.11788512288740167,3,0,pre_quali,logistic_regression
+12,Dutch Grand Prix,VER,Red Bull,0.05687223196701731,6,0,pre_quali,logistic_regression
+12,Dutch Grand Prix,LAW,Red Bull,0.04954942219266109,7,0,pre_quali,logistic_regression
+12,Dutch Grand Prix,BOR,Audi,0.008334508719436542,11,0,pre_quali,logistic_regression
+12,Dutch Grand Prix,LIN,RB F1 Team,0.006897189226640527,13,0,pre_quali,logistic_regression
+12,Dutch Grand Prix,GAS,Alpine F1 Team,0.007083070734877213,12,0,pre_quali,logistic_regression
+12,Dutch Grand Prix,TSU,RB F1 Team,0.028880897146864308,9,0,pre_quali,logistic_regression
+12,Dutch Grand Prix,HUL,Audi,0.003196455819065785,14,0,pre_quali,logistic_regression
+12,Dutch Grand Prix,COL,Alpine F1 Team,0.008530026144350552,10,0,pre_quali,logistic_regression
+12,Dutch Grand Prix,OCO,Haas F1 Team,0.0030343062104746113,15,0,pre_quali,logistic_regression
+12,Dutch Grand Prix,ALB,Williams,0.0008567767414897052,17,0,pre_quali,logistic_regression
+12,Dutch Grand Prix,SAI,Williams,0.0006198877060954065,19,0,pre_quali,logistic_regression
+12,Dutch Grand Prix,ALO,Aston Martin,0.0006384380331047718,18,0,pre_quali,logistic_regression
+12,Dutch Grand Prix,STR,Aston Martin,0.00042478125334391556,21,0,pre_quali,logistic_regression
+12,Dutch Grand Prix,BEA,Haas F1 Team,0.002100839448491288,16,0,pre_quali,logistic_regression
+12,Dutch Grand Prix,BOT,Cadillac F1 Team,0.0005276757112676971,20,0,pre_quali,logistic_regression
+12,Dutch Grand Prix,PER,Cadillac F1 Team,0.000307663026087661,22,0,pre_quali,logistic_regression
+13,Italian Grand Prix,GAS,Alpine F1 Team,0.0046803793181113265,11,0,pre_quali,logistic_regression
+13,Italian Grand Prix,RUS,Mercedes,0.12985613058716125,4,0,pre_quali,logistic_regression
+13,Italian Grand Prix,LEC,Ferrari,0.14066465736482148,3,0,pre_quali,logistic_regression
+13,Italian Grand Prix,HAM,Ferrari,0.1948455899634054,2,0,pre_quali,logistic_regression
+13,Italian Grand Prix,VER,Red Bull,0.028170626673722342,7,0,pre_quali,logistic_regression
+13,Italian Grand Prix,PIA,McLaren,0.048287591820736345,6,0,pre_quali,logistic_regression
+13,Italian Grand Prix,COL,Alpine F1 Team,0.004383803150328425,13,0,pre_quali,logistic_regression
+13,Italian Grand Prix,NOR,McLaren,0.09187523282950767,5,0,pre_quali,logistic_regression
+13,Italian Grand Prix,LIN,RB F1 Team,0.004252873514634742,14,0,pre_quali,logistic_regression
+13,Italian Grand Prix,BOR,Audi,0.008534219621493058,10,0,pre_quali,logistic_regression
+13,Italian Grand Prix,BEA,Haas F1 Team,0.0011832603102807462,16,0,pre_quali,logistic_regression
+13,Italian Grand Prix,HUL,Audi,0.0044482454527463786,12,0,pre_quali,logistic_regression
+13,Italian Grand Prix,SAI,Williams,0.0004039443128823667,21,0,pre_quali,logistic_regression
+13,Italian Grand Prix,OCO,Haas F1 Team,0.0012959524118831792,15,0,pre_quali,logistic_regression
+13,Italian Grand Prix,TSU,RB F1 Team,0.015020332498507736,9,0,pre_quali,logistic_regression
+13,Italian Grand Prix,BOT,Cadillac F1 Team,0.0005148087906949785,20,0,pre_quali,logistic_regression
+13,Italian Grand Prix,PER,Cadillac F1 Team,0.00030925496915743076,22,0,pre_quali,logistic_regression
+13,Italian Grand Prix,STR,Aston Martin,0.0007544440119355518,18,0,pre_quali,logistic_regression
+13,Italian Grand Prix,ANT,Mercedes,0.2955747485149902,1,1,pre_quali,logistic_regression
+13,Italian Grand Prix,ALB,Williams,0.0006871635807980474,19,0,pre_quali,logistic_regression
+13,Italian Grand Prix,ALO,Aston Martin,0.0009130022890078516,17,0,pre_quali,logistic_regression
+13,Italian Grand Prix,LAW,Red Bull,0.023343738013193498,8,0,pre_quali,logistic_regression
+14,Spanish Grand Prix,NOR,McLaren,0.09445477858965791,4,0,pre_quali,logistic_regression
+14,Spanish Grand Prix,ANT,Mercedes,0.4210943678860176,1,1,pre_quali,logistic_regression
+14,Spanish Grand Prix,VER,Red Bull,0.019563102035783597,7,0,pre_quali,logistic_regression
+14,Spanish Grand Prix,HAM,Ferrari,0.14183157649709172,3,0,pre_quali,logistic_regression
+14,Spanish Grand Prix,LEC,Ferrari,0.07173517433284819,5,0,pre_quali,logistic_regression
+14,Spanish Grand Prix,RUS,Mercedes,0.14795619815399355,2,0,pre_quali,logistic_regression
+14,Spanish Grand Prix,PIA,McLaren,0.04386330022069152,6,0,pre_quali,logistic_regression
+14,Spanish Grand Prix,LAW,Red Bull,0.013342737235051189,9,0,pre_quali,logistic_regression
+14,Spanish Grand Prix,COL,Alpine F1 Team,0.0051433124139036845,12,0,pre_quali,logistic_regression
+14,Spanish Grand Prix,LIN,RB F1 Team,0.0038036828573053925,13,0,pre_quali,logistic_regression
+14,Spanish Grand Prix,HUL,Audi,0.0030603103689417826,14,0,pre_quali,logistic_regression
+14,Spanish Grand Prix,BOR,Audi,0.007438671155930878,10,0,pre_quali,logistic_regression
+14,Spanish Grand Prix,OCO,Haas F1 Team,0.0010967004406408386,15,0,pre_quali,logistic_regression
+14,Spanish Grand Prix,GAS,Alpine F1 Team,0.0054681022834026415,11,0,pre_quali,logistic_regression
+14,Spanish Grand Prix,TSU,RB F1 Team,0.016396372738614474,8,0,pre_quali,logistic_regression
+14,Spanish Grand Prix,ALB,Williams,0.0006313954502416329,17,0,pre_quali,logistic_regression
+14,Spanish Grand Prix,ALO,Aston Martin,0.0006284698199491166,18,0,pre_quali,logistic_regression
+14,Spanish Grand Prix,PER,Cadillac F1 Team,0.00026318994910097657,22,0,pre_quali,logistic_regression
+14,Spanish Grand Prix,BOT,Cadillac F1 Team,0.0004985438701058743,19,0,pre_quali,logistic_regression
+14,Spanish Grand Prix,SAI,Williams,0.0003667861013753263,21,0,pre_quali,logistic_regression
+14,Spanish Grand Prix,STR,Aston Martin,0.00047526968423073956,20,0,pre_quali,logistic_regression
+14,Spanish Grand Prix,BEA,Haas F1 Team,0.0008879579151214583,16,0,pre_quali,logistic_regression
+15,Azerbaijan Grand Prix,RUS,Mercedes,0.1545266986205205,2,1,pre_quali,logistic_regression
+15,Azerbaijan Grand Prix,LEC,Ferrari,0.03178631782184657,7,0,pre_quali,logistic_regression
+15,Azerbaijan Grand Prix,PIA,McLaren,0.034630223462403444,6,0,pre_quali,logistic_regression
+15,Azerbaijan Grand Prix,HAD,Red Bull,0.060693720121928564,4,0,pre_quali,logistic_regression
+15,Azerbaijan Grand Prix,NOR,McLaren,0.08850306594742188,3,0,pre_quali,logistic_regression
+15,Azerbaijan Grand Prix,HAM,Ferrari,0.05338753077287449,5,0,pre_quali,logistic_regression
+15,Azerbaijan Grand Prix,GAS,Alpine F1 Team,0.003278164466050266,12,0,pre_quali,logistic_regression
+15,Azerbaijan Grand Prix,VER,Red Bull,0.03020429639068773,8,0,pre_quali,logistic_regression
+15,Azerbaijan Grand Prix,COL,Alpine F1 Team,0.0036440287121221647,11,0,pre_quali,logistic_regression
+15,Azerbaijan Grand Prix,BEA,Haas F1 Team,0.0004985538058745013,16,0,pre_quali,logistic_regression
+15,Azerbaijan Grand Prix,LAW,RB F1 Team,0.006566654139561469,9,0,pre_quali,logistic_regression
+15,Azerbaijan Grand Prix,ALB,Williams,0.00045540484294599525,17,0,pre_quali,logistic_regression
+15,Azerbaijan Grand Prix,OCO,Haas F1 Team,0.0007170195382728494,15,0,pre_quali,logistic_regression
+15,Azerbaijan Grand Prix,SAI,Williams,0.00022982073243252223,21,0,pre_quali,logistic_regression
+15,Azerbaijan Grand Prix,LIN,RB F1 Team,0.00198478800057247,14,0,pre_quali,logistic_regression
+15,Azerbaijan Grand Prix,ANT,Mercedes,0.5195538584604903,1,0,pre_quali,logistic_regression
+15,Azerbaijan Grand Prix,BOR,Audi,0.005829477905402003,10,0,pre_quali,logistic_regression
+15,Azerbaijan Grand Prix,HUL,Audi,0.0025140752539552177,13,0,pre_quali,logistic_regression
+15,Azerbaijan Grand Prix,BOT,Cadillac F1 Team,0.00024484658834189496,20,0,pre_quali,logistic_regression
+15,Azerbaijan Grand Prix,PER,Cadillac F1 Team,0.00011497798007858962,22,0,pre_quali,logistic_regression
+15,Azerbaijan Grand Prix,ALO,Aston Martin,0.00037795172155933156,18,0,pre_quali,logistic_regression
+15,Azerbaijan Grand Prix,STR,Aston Martin,0.00025852471465747555,19,0,pre_quali,logistic_regression
+16,Bahrain Grand Prix,VER,Red Bull,0.03482328620228844,6,1,pre_quali,logistic_regression
+16,Bahrain Grand Prix,HAM,Ferrari,0.043195266124736356,4,0,pre_quali,logistic_regression
+16,Bahrain Grand Prix,ANT,Mercedes,0.5016525816390388,1,0,pre_quali,logistic_regression
+16,Bahrain Grand Prix,LEC,Ferrari,0.0269898167282995,7,0,pre_quali,logistic_regression
+16,Bahrain Grand Prix,NOR,McLaren,0.03505036760712334,5,0,pre_quali,logistic_regression
+16,Bahrain Grand Prix,PIA,McLaren,0.017912839744909766,8,0,pre_quali,logistic_regression
+16,Bahrain Grand Prix,RUS,Mercedes,0.26353299718454165,2,0,pre_quali,logistic_regression
+16,Bahrain Grand Prix,HAD,Red Bull,0.05707736671438119,3,0,pre_quali,logistic_regression
+16,Bahrain Grand Prix,GAS,Alpine F1 Team,0.0018270522642382628,12,0,pre_quali,logistic_regression
+16,Bahrain Grand Prix,BOR,Audi,0.0038782650312688322,10,0,pre_quali,logistic_regression
+16,Bahrain Grand Prix,LAW,RB F1 Team,0.005458297235892919,9,0,pre_quali,logistic_regression
+16,Bahrain Grand Prix,ALO,Aston Martin,0.00026451172976352255,19,0,pre_quali,logistic_regression
+16,Bahrain Grand Prix,SAI,Williams,0.00023050220774459515,20,0,pre_quali,logistic_regression
+16,Bahrain Grand Prix,STR,Aston Martin,0.00021477468374021808,21,0,pre_quali,logistic_regression
+16,Bahrain Grand Prix,HUL,Audi,0.0017818429375305034,13,0,pre_quali,logistic_regression
+16,Bahrain Grand Prix,BEA,Haas F1 Team,0.0007069140132950036,16,0,pre_quali,logistic_regression
+16,Bahrain Grand Prix,OCO,Haas F1 Team,0.0009256491531537866,15,0,pre_quali,logistic_regression
+16,Bahrain Grand Prix,ALB,Williams,0.00040676415617698866,17,0,pre_quali,logistic_regression
+16,Bahrain Grand Prix,BOT,Cadillac F1 Team,0.0002693941840689801,18,0,pre_quali,logistic_regression
+16,Bahrain Grand Prix,PER,Cadillac F1 Team,0.00014115820516263805,22,0,pre_quali,logistic_regression
+16,Bahrain Grand Prix,COL,Alpine F1 Team,0.0020330740214884063,11,0,pre_quali,logistic_regression
+16,Bahrain Grand Prix,LIN,RB F1 Team,0.0016272782311562556,14,0,pre_quali,logistic_regression
+17,Singapore Grand Prix,VER,Red Bull,0.06088113457735434,4,1,pre_quali,logistic_regression
+17,Singapore Grand Prix,LEC,Ferrari,0.039743168819566285,7,0,pre_quali,logistic_regression
+17,Singapore Grand Prix,HAM,Ferrari,0.05726882576892761,5,0,pre_quali,logistic_regression
+17,Singapore Grand Prix,ANT,Mercedes,0.46722289629160607,1,0,pre_quali,logistic_regression
+17,Singapore Grand Prix,NOR,McLaren,0.05001708182001146,6,0,pre_quali,logistic_regression
+17,Singapore Grand Prix,PIA,McLaren,0.030060800335573994,8,0,pre_quali,logistic_regression
+17,Singapore Grand Prix,GAS,Alpine F1 Team,0.0027121558040130605,12,0,pre_quali,logistic_regression
+17,Singapore Grand Prix,LAW,RB F1 Team,0.008438021450743915,9,0,pre_quali,logistic_regression
+17,Singapore Grand Prix,LIN,RB F1 Team,0.0019635652028714757,14,0,pre_quali,logistic_regression
+17,Singapore Grand Prix,HUL,Audi,0.002336214663730695,13,0,pre_quali,logistic_regression
+17,Singapore Grand Prix,BEA,Haas F1 Team,0.001342351617710945,16,0,pre_quali,logistic_regression
+17,Singapore Grand Prix,OCO,Haas F1 Team,0.0015892319476184852,15,0,pre_quali,logistic_regression
+17,Singapore Grand Prix,SAI,Williams,0.0004326379624785235,21,0,pre_quali,logistic_regression
+17,Singapore Grand Prix,BOR,Audi,0.0035683550623566624,10,0,pre_quali,logistic_regression
+17,Singapore Grand Prix,COL,Alpine F1 Team,0.0028649082901333525,11,0,pre_quali,logistic_regression
+17,Singapore Grand Prix,ALB,Williams,0.0006184266667876059,17,0,pre_quali,logistic_regression
+17,Singapore Grand Prix,PER,Cadillac F1 Team,0.0003012737628449226,22,0,pre_quali,logistic_regression
+17,Singapore Grand Prix,BOT,Cadillac F1 Team,0.0004650368142887497,20,0,pre_quali,logistic_regression
+17,Singapore Grand Prix,RUS,Mercedes,0.1975338037514222,2,0,pre_quali,logistic_regression
+17,Singapore Grand Prix,ALO,Aston Martin,0.0006032807578801424,18,0,pre_quali,logistic_regression
+17,Singapore Grand Prix,STR,Aston Martin,0.00047644148683624935,19,0,pre_quali,logistic_regression
+17,Singapore Grand Prix,HAD,Red Bull,0.06956038714524325,3,0,pre_quali,logistic_regression
+6,Monaco Grand Prix,ANT,Mercedes,0.9360960411998227,1,1,pre_quali,gradient_boosting
+6,Monaco Grand Prix,VER,Red Bull,0.0014620201270412532,4,0,pre_quali,gradient_boosting
+6,Monaco Grand Prix,HAM,Ferrari,0.0014620201270412532,5,0,pre_quali,gradient_boosting
+6,Monaco Grand Prix,LEC,Ferrari,0.0014620201270412532,6,0,pre_quali,gradient_boosting
+6,Monaco Grand Prix,HAD,Red Bull,0.0007909741549485642,10,0,pre_quali,gradient_boosting
+6,Monaco Grand Prix,RUS,Mercedes,0.022424587011799044,2,0,pre_quali,gradient_boosting
+6,Monaco Grand Prix,PIA,McLaren,0.022424587011799044,3,0,pre_quali,gradient_boosting
+6,Monaco Grand Prix,NOR,McLaren,0.0014620201270412532,7,0,pre_quali,gradient_boosting
+6,Monaco Grand Prix,GAS,Alpine F1 Team,0.0007909741549485642,11,0,pre_quali,gradient_boosting
+6,Monaco Grand Prix,LAW,RB F1 Team,0.0007909741549485642,12,0,pre_quali,gradient_boosting
+6,Monaco Grand Prix,ALB,Williams,0.0007909741549485642,13,0,pre_quali,gradient_boosting
+6,Monaco Grand Prix,SAI,Williams,0.0014620201270412532,8,0,pre_quali,gradient_boosting
+6,Monaco Grand Prix,HUL,Audi,0.0007909741549485642,14,0,pre_quali,gradient_boosting
+6,Monaco Grand Prix,COL,Alpine F1 Team,0.0007909741549485642,15,0,pre_quali,gradient_boosting
+6,Monaco Grand Prix,LIN,RB F1 Team,0.0007909741549485642,16,0,pre_quali,gradient_boosting
+6,Monaco Grand Prix,BOR,Audi,0.0007909741549485642,17,0,pre_quali,gradient_boosting
+6,Monaco Grand Prix,OCO,Haas F1 Team,0.0007909741549485642,18,0,pre_quali,gradient_boosting
+6,Monaco Grand Prix,PER,Cadillac F1 Team,0.0014620201270412532,9,0,pre_quali,gradient_boosting
+6,Monaco Grand Prix,BEA,Haas F1 Team,0.0007909741549485642,19,0,pre_quali,gradient_boosting
+6,Monaco Grand Prix,BOT,Cadillac F1 Team,0.0007909741549485642,20,0,pre_quali,gradient_boosting
+6,Monaco Grand Prix,ALO,Aston Martin,0.0007909741549485642,21,0,pre_quali,gradient_boosting
+6,Monaco Grand Prix,STR,Aston Martin,0.0007909741549485642,22,0,pre_quali,gradient_boosting
+7,Barcelona Grand Prix,RUS,Mercedes,0.01792819919091598,2,0,pre_quali,gradient_boosting
+7,Barcelona Grand Prix,HAM,Ferrari,0.001361231056856384,4,1,pre_quali,gradient_boosting
+7,Barcelona Grand Prix,ANT,Mercedes,0.9462949564633636,1,0,pre_quali,gradient_boosting
+7,Barcelona Grand Prix,NOR,McLaren,0.001361231056856384,5,0,pre_quali,gradient_boosting
+7,Barcelona Grand Prix,VER,Red Bull,0.001361231056856384,6,0,pre_quali,gradient_boosting
+7,Barcelona Grand Prix,HAD,Red Bull,0.0007447122164358777,10,0,pre_quali,gradient_boosting
+7,Barcelona Grand Prix,PIA,McLaren,0.01792819919091598,3,0,pre_quali,gradient_boosting
+7,Barcelona Grand Prix,LAW,RB F1 Team,0.0007447122164358777,11,0,pre_quali,gradient_boosting
+7,Barcelona Grand Prix,HUL,Audi,0.0007447122164358777,12,0,pre_quali,gradient_boosting
+7,Barcelona Grand Prix,LEC,Ferrari,0.001361231056856384,7,0,pre_quali,gradient_boosting
+7,Barcelona Grand Prix,LIN,RB F1 Team,0.0007447122164358777,13,0,pre_quali,gradient_boosting
+7,Barcelona Grand Prix,BOR,Audi,0.0007447122164358777,14,0,pre_quali,gradient_boosting
+7,Barcelona Grand Prix,COL,Alpine F1 Team,0.0007447122164358777,15,0,pre_quali,gradient_boosting
+7,Barcelona Grand Prix,GAS,Alpine F1 Team,0.0007447122164358777,16,0,pre_quali,gradient_boosting
+7,Barcelona Grand Prix,BEA,Haas F1 Team,0.0007447122164358777,17,0,pre_quali,gradient_boosting
+7,Barcelona Grand Prix,SAI,Williams,0.001361231056856384,8,0,pre_quali,gradient_boosting
+7,Barcelona Grand Prix,OCO,Haas F1 Team,0.0007447122164358777,18,0,pre_quali,gradient_boosting
+7,Barcelona Grand Prix,ALB,Williams,0.0007447122164358777,19,0,pre_quali,gradient_boosting
+7,Barcelona Grand Prix,PER,Cadillac F1 Team,0.001361231056856384,9,0,pre_quali,gradient_boosting
+7,Barcelona Grand Prix,BOT,Cadillac F1 Team,0.0007447122164358777,20,0,pre_quali,gradient_boosting
+7,Barcelona Grand Prix,STR,Aston Martin,0.0007447122164358777,21,0,pre_quali,gradient_boosting
+7,Barcelona Grand Prix,ALO,Aston Martin,0.0007447122164358777,22,0,pre_quali,gradient_boosting
+8,Austrian Grand Prix,RUS,Mercedes,0.3783543377946373,1,1,pre_quali,gradient_boosting
+8,Austrian Grand Prix,LEC,Ferrari,0.0013709024562586834,9,0,pre_quali,gradient_boosting
+8,Austrian Grand Prix,HAM,Ferrari,0.37004246980460737,2,0,pre_quali,gradient_boosting
+8,Austrian Grand Prix,ANT,Mercedes,0.22529129954240779,3,0,pre_quali,gradient_boosting
+8,Austrian Grand Prix,VER,Red Bull,0.001298803256332762,11,0,pre_quali,gradient_boosting
+8,Austrian Grand Prix,NOR,McLaren,0.0013709024562586834,10,0,pre_quali,gradient_boosting
+8,Austrian Grand Prix,PIA,McLaren,0.0026191292855973483,4,0,pre_quali,gradient_boosting
+8,Austrian Grand Prix,HAD,Red Bull,0.0014947181737913022,5,0,pre_quali,gradient_boosting
+8,Austrian Grand Prix,LAW,RB F1 Team,0.0012306306884521136,14,0,pre_quali,gradient_boosting
+8,Austrian Grand Prix,LIN,RB F1 Team,0.0014947181737913022,6,0,pre_quali,gradient_boosting
+8,Austrian Grand Prix,GAS,Alpine F1 Team,0.0012306306884521136,15,0,pre_quali,gradient_boosting
+8,Austrian Grand Prix,BOR,Audi,0.0014947181737913022,7,0,pre_quali,gradient_boosting
+8,Austrian Grand Prix,BEA,Haas F1 Team,0.0012306306884521136,16,0,pre_quali,gradient_boosting
+8,Austrian Grand Prix,HUL,Audi,0.0012306306884521136,17,0,pre_quali,gradient_boosting
+8,Austrian Grand Prix,OCO,Haas F1 Team,0.0014947181737913022,8,0,pre_quali,gradient_boosting
+8,Austrian Grand Prix,COL,Alpine F1 Team,0.0012306306884521136,18,0,pre_quali,gradient_boosting
+8,Austrian Grand Prix,SAI,Williams,0.001298803256332762,12,0,pre_quali,gradient_boosting
+8,Austrian Grand Prix,ALB,Williams,0.0012306306884521136,19,0,pre_quali,gradient_boosting
+8,Austrian Grand Prix,PER,Cadillac F1 Team,0.001298803256332762,13,0,pre_quali,gradient_boosting
+8,Austrian Grand Prix,BOT,Cadillac F1 Team,0.0012306306884521136,20,0,pre_quali,gradient_boosting
+8,Austrian Grand Prix,ALO,Aston Martin,0.0012306306884521136,21,0,pre_quali,gradient_boosting
+8,Austrian Grand Prix,STR,Aston Martin,0.0012306306884521136,22,0,pre_quali,gradient_boosting
+9,British Grand Prix,ANT,Mercedes,0.06084433290022397,3,0,pre_quali,gradient_boosting
+9,British Grand Prix,LEC,Ferrari,0.011701631329693471,5,1,pre_quali,gradient_boosting
+9,British Grand Prix,HAM,Ferrari,0.23744509532502148,2,0,pre_quali,gradient_boosting
+9,British Grand Prix,RUS,Mercedes,0.50858444035299,1,0,pre_quali,gradient_boosting
+9,British Grand Prix,HAD,Red Bull,0.008812339641927833,10,0,pre_quali,gradient_boosting
+9,British Grand Prix,NOR,McLaren,0.011701631329693471,6,0,pre_quali,gradient_boosting
+9,British Grand Prix,VER,Red Bull,0.011701631329693471,7,0,pre_quali,gradient_boosting
+9,British Grand Prix,PIA,McLaren,0.020057559428235495,4,0,pre_quali,gradient_boosting
+9,British Grand Prix,LIN,RB F1 Team,0.008812339641927833,11,0,pre_quali,gradient_boosting
+9,British Grand Prix,LAW,RB F1 Team,0.008812339641927833,12,0,pre_quali,gradient_boosting
+9,British Grand Prix,BOR,Audi,0.008812339641927833,13,0,pre_quali,gradient_boosting
+9,British Grand Prix,HUL,Audi,0.008812339641927833,14,0,pre_quali,gradient_boosting
+9,British Grand Prix,BEA,Haas F1 Team,0.008812339641927833,15,0,pre_quali,gradient_boosting
+9,British Grand Prix,SAI,Williams,0.011701631329693471,8,0,pre_quali,gradient_boosting
+9,British Grand Prix,GAS,Alpine F1 Team,0.008812339641927833,16,0,pre_quali,gradient_boosting
+9,British Grand Prix,ALB,Williams,0.008812339641927833,17,0,pre_quali,gradient_boosting
+9,British Grand Prix,OCO,Haas F1 Team,0.008812339641927833,18,0,pre_quali,gradient_boosting
+9,British Grand Prix,BOT,Cadillac F1 Team,0.008812339641927833,19,0,pre_quali,gradient_boosting
+9,British Grand Prix,COL,Alpine F1 Team,0.008812339641927833,20,0,pre_quali,gradient_boosting
+9,British Grand Prix,PER,Cadillac F1 Team,0.011701631329693471,9,0,pre_quali,gradient_boosting
+9,British Grand Prix,ALO,Aston Martin,0.008812339641927833,21,0,pre_quali,gradient_boosting
+9,British Grand Prix,STR,Aston Martin,0.008812339641927833,22,0,pre_quali,gradient_boosting
+10,Belgian Grand Prix,ANT,Mercedes,0.006225401796547995,6,1,pre_quali,gradient_boosting
+10,Belgian Grand Prix,VER,Red Bull,0.002805339114959482,14,0,pre_quali,gradient_boosting
+10,Belgian Grand Prix,RUS,Mercedes,0.006984838995398832,5,0,pre_quali,gradient_boosting
+10,Belgian Grand Prix,LEC,Ferrari,0.508845284386996,1,0,pre_quali,gradient_boosting
+10,Belgian Grand Prix,HAM,Ferrari,0.01616928077374569,3,0,pre_quali,gradient_boosting
+10,Belgian Grand Prix,PIA,McLaren,0.016051338692259096,4,0,pre_quali,gradient_boosting
+10,Belgian Grand Prix,LIN,RB F1 Team,0.0033015825654818297,8,0,pre_quali,gradient_boosting
+10,Belgian Grand Prix,BOR,Audi,0.0033015825654818297,9,0,pre_quali,gradient_boosting
+10,Belgian Grand Prix,LAW,RB F1 Team,0.0033015825654818297,10,0,pre_quali,gradient_boosting
+10,Belgian Grand Prix,GAS,Alpine F1 Team,0.0033015825654818297,11,0,pre_quali,gradient_boosting
+10,Belgian Grand Prix,COL,Alpine F1 Team,0.0033015825654818297,12,0,pre_quali,gradient_boosting
+10,Belgian Grand Prix,HUL,Audi,0.002498365141091348,16,0,pre_quali,gradient_boosting
+10,Belgian Grand Prix,NOR,McLaren,0.39910850436547285,2,0,pre_quali,gradient_boosting
+10,Belgian Grand Prix,BEA,Haas F1 Team,0.002498365141091348,17,0,pre_quali,gradient_boosting
+10,Belgian Grand Prix,ALB,Williams,0.002498365141091348,18,0,pre_quali,gradient_boosting
+10,Belgian Grand Prix,OCO,Haas F1 Team,0.0033015825654818297,13,0,pre_quali,gradient_boosting
+10,Belgian Grand Prix,BOT,Cadillac F1 Team,0.002498365141091348,19,0,pre_quali,gradient_boosting
+10,Belgian Grand Prix,PER,Cadillac F1 Team,0.002805339114959482,15,0,pre_quali,gradient_boosting
+10,Belgian Grand Prix,SAI,Williams,0.003706621379130272,7,0,pre_quali,gradient_boosting
+10,Belgian Grand Prix,STR,Aston Martin,0.002498365141091348,20,0,pre_quali,gradient_boosting
+10,Belgian Grand Prix,HAD,Red Bull,0.002498365141091348,21,0,pre_quali,gradient_boosting
+10,Belgian Grand Prix,ALO,Aston Martin,0.002498365141091348,22,0,pre_quali,gradient_boosting
+11,Hungarian Grand Prix,NOR,McLaren,0.22833835192527877,2,1,pre_quali,gradient_boosting
+11,Hungarian Grand Prix,LEC,Ferrari,0.04100404007791903,5,0,pre_quali,gradient_boosting
+11,Hungarian Grand Prix,PIA,McLaren,0.22833835192527877,3,0,pre_quali,gradient_boosting
+11,Hungarian Grand Prix,VER,Red Bull,0.1076893955214685,4,0,pre_quali,gradient_boosting
+11,Hungarian Grand Prix,HAM,Ferrari,0.021464041177968737,6,0,pre_quali,gradient_boosting
+11,Hungarian Grand Prix,RUS,Mercedes,0.003707018786251182,7,0,pre_quali,gradient_boosting
+11,Hungarian Grand Prix,ANT,Mercedes,0.32433976364441514,1,0,pre_quali,gradient_boosting
+11,Hungarian Grand Prix,HAD,Red Bull,0.00271804052654513,15,0,pre_quali,gradient_boosting
+11,Hungarian Grand Prix,LIN,RB F1 Team,0.0033392446755798094,8,0,pre_quali,gradient_boosting
+11,Hungarian Grand Prix,HUL,Audi,0.00271804052654513,16,0,pre_quali,gradient_boosting
+11,Hungarian Grand Prix,LAW,RB F1 Team,0.0033392446755798094,9,0,pre_quali,gradient_boosting
+11,Hungarian Grand Prix,GAS,Alpine F1 Team,0.0033392446755798094,10,0,pre_quali,gradient_boosting
+11,Hungarian Grand Prix,COL,Alpine F1 Team,0.0033392446755798094,11,0,pre_quali,gradient_boosting
+11,Hungarian Grand Prix,BOR,Audi,0.0033392446755798094,12,0,pre_quali,gradient_boosting
+11,Hungarian Grand Prix,OCO,Haas F1 Team,0.0033392446755798094,13,0,pre_quali,gradient_boosting
+11,Hungarian Grand Prix,ALO,Aston Martin,0.00271804052654513,17,0,pre_quali,gradient_boosting
+11,Hungarian Grand Prix,BEA,Haas F1 Team,0.00271804052654513,18,0,pre_quali,gradient_boosting
+11,Hungarian Grand Prix,SAI,Williams,0.0033392446755798094,14,0,pre_quali,gradient_boosting
+11,Hungarian Grand Prix,ALB,Williams,0.00271804052654513,19,0,pre_quali,gradient_boosting
+11,Hungarian Grand Prix,STR,Aston Martin,0.00271804052654513,20,0,pre_quali,gradient_boosting
+11,Hungarian Grand Prix,BOT,Cadillac F1 Team,0.00271804052654513,21,0,pre_quali,gradient_boosting
+11,Hungarian Grand Prix,PER,Cadillac F1 Team,0.00271804052654513,22,0,pre_quali,gradient_boosting
+12,Dutch Grand Prix,NOR,McLaren,0.0588529789614716,3,1,pre_quali,gradient_boosting
+12,Dutch Grand Prix,RUS,Mercedes,0.042513944628114905,6,0,pre_quali,gradient_boosting
+12,Dutch Grand Prix,ANT,Mercedes,0.44515231287326773,1,0,pre_quali,gradient_boosting
+12,Dutch Grand Prix,PIA,McLaren,0.19621470071978833,2,0,pre_quali,gradient_boosting
+12,Dutch Grand Prix,HAM,Ferrari,0.040399609492949455,7,0,pre_quali,gradient_boosting
+12,Dutch Grand Prix,LEC,Ferrari,0.0588529789614716,4,0,pre_quali,gradient_boosting
+12,Dutch Grand Prix,VER,Red Bull,0.0588529789614716,5,0,pre_quali,gradient_boosting
+12,Dutch Grand Prix,LAW,Red Bull,0.021518449187026216,8,0,pre_quali,gradient_boosting
+12,Dutch Grand Prix,BOR,Audi,0.004554653870472058,10,0,pre_quali,gradient_boosting
+12,Dutch Grand Prix,LIN,RB F1 Team,0.004554653870472058,11,0,pre_quali,gradient_boosting
+12,Dutch Grand Prix,GAS,Alpine F1 Team,0.004554653870472058,12,0,pre_quali,gradient_boosting
+12,Dutch Grand Prix,TSU,RB F1 Team,0.018431545898301538,9,0,pre_quali,gradient_boosting
+12,Dutch Grand Prix,HUL,Audi,0.004554653870472058,13,0,pre_quali,gradient_boosting
+12,Dutch Grand Prix,COL,Alpine F1 Team,0.004554653870472058,14,0,pre_quali,gradient_boosting
+12,Dutch Grand Prix,OCO,Haas F1 Team,0.004554653870472058,15,0,pre_quali,gradient_boosting
+12,Dutch Grand Prix,ALB,Williams,0.004554653870472058,16,0,pre_quali,gradient_boosting
+12,Dutch Grand Prix,SAI,Williams,0.004554653870472058,17,0,pre_quali,gradient_boosting
+12,Dutch Grand Prix,ALO,Aston Martin,0.004554653870472058,18,0,pre_quali,gradient_boosting
+12,Dutch Grand Prix,STR,Aston Martin,0.004554653870472058,19,0,pre_quali,gradient_boosting
+12,Dutch Grand Prix,BEA,Haas F1 Team,0.004554653870472058,20,0,pre_quali,gradient_boosting
+12,Dutch Grand Prix,BOT,Cadillac F1 Team,0.004554653870472058,21,0,pre_quali,gradient_boosting
+12,Dutch Grand Prix,PER,Cadillac F1 Team,0.004554653870472058,22,0,pre_quali,gradient_boosting
+13,Italian Grand Prix,GAS,Alpine F1 Team,0.0023970671021315447,8,0,pre_quali,gradient_boosting
+13,Italian Grand Prix,RUS,Mercedes,0.22306091983777732,2,0,pre_quali,gradient_boosting
+13,Italian Grand Prix,LEC,Ferrari,0.030957435239944747,7,0,pre_quali,gradient_boosting
+13,Italian Grand Prix,HAM,Ferrari,0.2652072671796761,1,0,pre_quali,gradient_boosting
+13,Italian Grand Prix,VER,Red Bull,0.03677945048876374,5,0,pre_quali,gradient_boosting
+13,Italian Grand Prix,PIA,McLaren,0.21570348888666688,3,0,pre_quali,gradient_boosting
+13,Italian Grand Prix,COL,Alpine F1 Team,0.0023970671021315447,9,0,pre_quali,gradient_boosting
+13,Italian Grand Prix,NOR,McLaren,0.15587165837069628,4,0,pre_quali,gradient_boosting
+13,Italian Grand Prix,LIN,RB F1 Team,0.0023970671021315447,10,0,pre_quali,gradient_boosting
+13,Italian Grand Prix,BOR,Audi,0.0023970671021315447,11,0,pre_quali,gradient_boosting
+13,Italian Grand Prix,BEA,Haas F1 Team,0.0023970671021315447,12,0,pre_quali,gradient_boosting
+13,Italian Grand Prix,HUL,Audi,0.0023970671021315447,13,0,pre_quali,gradient_boosting
+13,Italian Grand Prix,SAI,Williams,0.0023970671021315447,14,0,pre_quali,gradient_boosting
+13,Italian Grand Prix,OCO,Haas F1 Team,0.0023970671021315447,15,0,pre_quali,gradient_boosting
+13,Italian Grand Prix,TSU,RB F1 Team,0.0023970671021315447,16,0,pre_quali,gradient_boosting
+13,Italian Grand Prix,BOT,Cadillac F1 Team,0.0023970671021315447,17,0,pre_quali,gradient_boosting
+13,Italian Grand Prix,PER,Cadillac F1 Team,0.0023970671021315447,18,0,pre_quali,gradient_boosting
+13,Italian Grand Prix,STR,Aston Martin,0.0023970671021315447,19,0,pre_quali,gradient_boosting
+13,Italian Grand Prix,ANT,Mercedes,0.036463773464501296,6,1,pre_quali,gradient_boosting
+13,Italian Grand Prix,ALB,Williams,0.0023970671021315447,20,0,pre_quali,gradient_boosting
+13,Italian Grand Prix,ALO,Aston Martin,0.0023970671021315447,21,0,pre_quali,gradient_boosting
+13,Italian Grand Prix,LAW,Red Bull,0.0023970671021315447,22,0,pre_quali,gradient_boosting
+14,Spanish Grand Prix,NOR,McLaren,0.0382917372252634,6,0,pre_quali,gradient_boosting
+14,Spanish Grand Prix,ANT,Mercedes,0.6232812219622494,1,1,pre_quali,gradient_boosting
+14,Spanish Grand Prix,VER,Red Bull,0.022796479473841665,7,0,pre_quali,gradient_boosting
+14,Spanish Grand Prix,HAM,Ferrari,0.06142882774359346,3,0,pre_quali,gradient_boosting
+14,Spanish Grand Prix,LEC,Ferrari,0.04485186981703853,5,0,pre_quali,gradient_boosting
+14,Spanish Grand Prix,RUS,Mercedes,0.06142882774359346,4,0,pre_quali,gradient_boosting
+14,Spanish Grand Prix,PIA,McLaren,0.08447714256112392,2,0,pre_quali,gradient_boosting
+14,Spanish Grand Prix,LAW,Red Bull,0.004229592898219752,8,0,pre_quali,gradient_boosting
+14,Spanish Grand Prix,COL,Alpine F1 Team,0.004229592898219752,9,0,pre_quali,gradient_boosting
+14,Spanish Grand Prix,LIN,RB F1 Team,0.004229592898219752,10,0,pre_quali,gradient_boosting
+14,Spanish Grand Prix,HUL,Audi,0.004229592898219752,11,0,pre_quali,gradient_boosting
+14,Spanish Grand Prix,BOR,Audi,0.004229592898219752,12,0,pre_quali,gradient_boosting
+14,Spanish Grand Prix,OCO,Haas F1 Team,0.004229592898219752,13,0,pre_quali,gradient_boosting
+14,Spanish Grand Prix,GAS,Alpine F1 Team,0.004229592898219752,14,0,pre_quali,gradient_boosting
+14,Spanish Grand Prix,TSU,RB F1 Team,0.004229592898219752,15,0,pre_quali,gradient_boosting
+14,Spanish Grand Prix,ALB,Williams,0.004229592898219752,16,0,pre_quali,gradient_boosting
+14,Spanish Grand Prix,ALO,Aston Martin,0.004229592898219752,17,0,pre_quali,gradient_boosting
+14,Spanish Grand Prix,PER,Cadillac F1 Team,0.004229592898219752,18,0,pre_quali,gradient_boosting
+14,Spanish Grand Prix,BOT,Cadillac F1 Team,0.004229592898219752,19,0,pre_quali,gradient_boosting
+14,Spanish Grand Prix,SAI,Williams,0.004229592898219752,20,0,pre_quali,gradient_boosting
+14,Spanish Grand Prix,STR,Aston Martin,0.004229592898219752,21,0,pre_quali,gradient_boosting
+14,Spanish Grand Prix,BEA,Haas F1 Team,0.004229592898219752,22,0,pre_quali,gradient_boosting
+15,Azerbaijan Grand Prix,RUS,Mercedes,0.041731685086987304,5,1,pre_quali,gradient_boosting
+15,Azerbaijan Grand Prix,LEC,Ferrari,0.010006844406441834,8,0,pre_quali,gradient_boosting
+15,Azerbaijan Grand Prix,PIA,McLaren,0.0608777038710869,2,0,pre_quali,gradient_boosting
+15,Azerbaijan Grand Prix,HAD,Red Bull,0.04913475826393454,4,0,pre_quali,gradient_boosting
+15,Azerbaijan Grand Prix,NOR,McLaren,0.03962473119554057,6,0,pre_quali,gradient_boosting
+15,Azerbaijan Grand Prix,HAM,Ferrari,0.010639144279498417,7,0,pre_quali,gradient_boosting
+15,Azerbaijan Grand Prix,GAS,Alpine F1 Team,0.004469770112235699,9,0,pre_quali,gradient_boosting
+15,Azerbaijan Grand Prix,VER,Red Bull,0.05041190932076219,3,0,pre_quali,gradient_boosting
+15,Azerbaijan Grand Prix,COL,Alpine F1 Team,0.004469770112235699,10,0,pre_quali,gradient_boosting
+15,Azerbaijan Grand Prix,BEA,Haas F1 Team,0.004469770112235699,11,0,pre_quali,gradient_boosting
+15,Azerbaijan Grand Prix,LAW,RB F1 Team,0.004469770112235699,12,0,pre_quali,gradient_boosting
+15,Azerbaijan Grand Prix,ALB,Williams,0.004469770112235699,13,0,pre_quali,gradient_boosting
+15,Azerbaijan Grand Prix,OCO,Haas F1 Team,0.004469770112235699,14,0,pre_quali,gradient_boosting
+15,Azerbaijan Grand Prix,SAI,Williams,0.004469770112235699,15,0,pre_quali,gradient_boosting
+15,Azerbaijan Grand Prix,LIN,RB F1 Team,0.004469770112235699,16,0,pre_quali,gradient_boosting
+15,Azerbaijan Grand Prix,ANT,Mercedes,0.6749964420044483,1,0,pre_quali,gradient_boosting
+15,Azerbaijan Grand Prix,BOR,Audi,0.004469770112235699,17,0,pre_quali,gradient_boosting
+15,Azerbaijan Grand Prix,HUL,Audi,0.004469770112235699,18,0,pre_quali,gradient_boosting
+15,Azerbaijan Grand Prix,BOT,Cadillac F1 Team,0.004469770112235699,19,0,pre_quali,gradient_boosting
+15,Azerbaijan Grand Prix,PER,Cadillac F1 Team,0.004469770112235699,20,0,pre_quali,gradient_boosting
+15,Azerbaijan Grand Prix,ALO,Aston Martin,0.004469770112235699,21,0,pre_quali,gradient_boosting
+15,Azerbaijan Grand Prix,STR,Aston Martin,0.004469770112235699,22,0,pre_quali,gradient_boosting
+16,Bahrain Grand Prix,VER,Red Bull,0.04855564018449681,5,1,pre_quali,gradient_boosting
+16,Bahrain Grand Prix,HAM,Ferrari,0.02063233621446541,8,0,pre_quali,gradient_boosting
+16,Bahrain Grand Prix,ANT,Mercedes,0.17743944169129566,2,0,pre_quali,gradient_boosting
+16,Bahrain Grand Prix,LEC,Ferrari,0.038458745636089,6,0,pre_quali,gradient_boosting
+16,Bahrain Grand Prix,NOR,McLaren,0.05034355186656451,4,0,pre_quali,gradient_boosting
+16,Bahrain Grand Prix,PIA,McLaren,0.03473931496458678,7,0,pre_quali,gradient_boosting
+16,Bahrain Grand Prix,RUS,Mercedes,0.4311048972784623,1,0,pre_quali,gradient_boosting
+16,Bahrain Grand Prix,HAD,Red Bull,0.14278463398698427,3,0,pre_quali,gradient_boosting
+16,Bahrain Grand Prix,GAS,Alpine F1 Team,0.004017305125747512,9,0,pre_quali,gradient_boosting
+16,Bahrain Grand Prix,BOR,Audi,0.004017305125747512,10,0,pre_quali,gradient_boosting
+16,Bahrain Grand Prix,LAW,RB F1 Team,0.004017305125747512,11,0,pre_quali,gradient_boosting
+16,Bahrain Grand Prix,ALO,Aston Martin,0.003974328899546073,16,0,pre_quali,gradient_boosting
+16,Bahrain Grand Prix,SAI,Williams,0.004017305125747512,12,0,pre_quali,gradient_boosting
+16,Bahrain Grand Prix,STR,Aston Martin,0.003974328899546073,17,0,pre_quali,gradient_boosting
+16,Bahrain Grand Prix,HUL,Audi,0.003974328899546073,18,0,pre_quali,gradient_boosting
+16,Bahrain Grand Prix,BEA,Haas F1 Team,0.003974328899546073,19,0,pre_quali,gradient_boosting
+16,Bahrain Grand Prix,OCO,Haas F1 Team,0.004017305125747512,13,0,pre_quali,gradient_boosting
+16,Bahrain Grand Prix,ALB,Williams,0.003974328899546073,20,0,pre_quali,gradient_boosting
+16,Bahrain Grand Prix,BOT,Cadillac F1 Team,0.003974328899546073,21,0,pre_quali,gradient_boosting
+16,Bahrain Grand Prix,PER,Cadillac F1 Team,0.003974328899546073,22,0,pre_quali,gradient_boosting
+16,Bahrain Grand Prix,COL,Alpine F1 Team,0.004017305125747512,14,0,pre_quali,gradient_boosting
+16,Bahrain Grand Prix,LIN,RB F1 Team,0.004017305125747512,15,0,pre_quali,gradient_boosting
+17,Singapore Grand Prix,VER,Red Bull,0.12358991203476985,4,1,pre_quali,gradient_boosting
+17,Singapore Grand Prix,LEC,Ferrari,0.033473842283708144,6,0,pre_quali,gradient_boosting
+17,Singapore Grand Prix,HAM,Ferrari,0.07653358681611847,5,0,pre_quali,gradient_boosting
+17,Singapore Grand Prix,ANT,Mercedes,0.14088180633001748,3,0,pre_quali,gradient_boosting
+17,Singapore Grand Prix,NOR,McLaren,0.029113046136526835,7,0,pre_quali,gradient_boosting
+17,Singapore Grand Prix,PIA,McLaren,0.01925388942425262,8,0,pre_quali,gradient_boosting
+17,Singapore Grand Prix,GAS,Alpine F1 Team,0.006365341949408089,9,0,pre_quali,gradient_boosting
+17,Singapore Grand Prix,LAW,RB F1 Team,0.006365341949408089,10,0,pre_quali,gradient_boosting
+17,Singapore Grand Prix,LIN,RB F1 Team,0.006365341949408089,11,0,pre_quali,gradient_boosting
+17,Singapore Grand Prix,HUL,Audi,0.006365341949408089,12,0,pre_quali,gradient_boosting
+17,Singapore Grand Prix,BEA,Haas F1 Team,0.006365341949408089,13,0,pre_quali,gradient_boosting
+17,Singapore Grand Prix,OCO,Haas F1 Team,0.006365341949408089,14,0,pre_quali,gradient_boosting
+17,Singapore Grand Prix,SAI,Williams,0.006365341949408089,15,0,pre_quali,gradient_boosting
+17,Singapore Grand Prix,BOR,Audi,0.006365341949408089,16,0,pre_quali,gradient_boosting
+17,Singapore Grand Prix,COL,Alpine F1 Team,0.006365341949408089,17,0,pre_quali,gradient_boosting
+17,Singapore Grand Prix,ALB,Williams,0.006365341949408089,18,0,pre_quali,gradient_boosting
+17,Singapore Grand Prix,PER,Cadillac F1 Team,0.006365341949408089,19,0,pre_quali,gradient_boosting
+17,Singapore Grand Prix,BOT,Cadillac F1 Team,0.006365341949408089,20,0,pre_quali,gradient_boosting
+17,Singapore Grand Prix,RUS,Mercedes,0.2607827648066903,1,0,pre_quali,gradient_boosting
+17,Singapore Grand Prix,ALO,Aston Martin,0.006365341949408089,21,0,pre_quali,gradient_boosting
+17,Singapore Grand Prix,STR,Aston Martin,0.006365341949408089,22,0,pre_quali,gradient_boosting
+17,Singapore Grand Prix,HAD,Red Bull,0.22725636487620307,2,0,pre_quali,gradient_boosting
+6,Monaco Grand Prix,ANT,Mercedes,0.7641691338499423,1,1,post_quali,logistic_regression
+6,Monaco Grand Prix,VER,Red Bull,0.014059758364833277,6,0,post_quali,logistic_regression
+6,Monaco Grand Prix,HAM,Ferrari,0.07751482400033752,2,0,post_quali,logistic_regression
+6,Monaco Grand Prix,LEC,Ferrari,0.04071138049000469,4,0,post_quali,logistic_regression
+6,Monaco Grand Prix,HAD,Red Bull,0.025734713746696076,5,0,post_quali,logistic_regression
+6,Monaco Grand Prix,RUS,Mercedes,0.05782717543197066,3,0,post_quali,logistic_regression
+6,Monaco Grand Prix,PIA,McLaren,0.006319989188114428,7,0,post_quali,logistic_regression
+6,Monaco Grand Prix,NOR,McLaren,0.003992470929502899,8,0,post_quali,logistic_regression
+6,Monaco Grand Prix,GAS,Alpine F1 Team,0.0023916060971790527,9,0,post_quali,logistic_regression
+6,Monaco Grand Prix,LAW,RB F1 Team,0.0022207795241711028,10,0,post_quali,logistic_regression
+6,Monaco Grand Prix,ALB,Williams,0.00053866909423438,15,0,post_quali,logistic_regression
+6,Monaco Grand Prix,SAI,Williams,0.0002969794136675069,17,0,post_quali,logistic_regression
+6,Monaco Grand Prix,HUL,Audi,0.00032694272591216663,16,0,post_quali,logistic_regression
+6,Monaco Grand Prix,COL,Alpine F1 Team,0.001280847550329436,11,0,post_quali,logistic_regression
+6,Monaco Grand Prix,LIN,RB F1 Team,0.0006379592170778992,14,0,post_quali,logistic_regression
+6,Monaco Grand Prix,BOR,Audi,0.0009289012134648429,12,0,post_quali,logistic_regression
+6,Monaco Grand Prix,OCO,Haas F1 Team,0.0006795902915562896,13,0,post_quali,logistic_regression
+6,Monaco Grand Prix,PER,Cadillac F1 Team,3.726295880459903e-05,20,0,post_quali,logistic_regression
+6,Monaco Grand Prix,BEA,Haas F1 Team,0.00022304780103894026,18,0,post_quali,logistic_regression
+6,Monaco Grand Prix,BOT,Cadillac F1 Team,7.240990513640394e-05,19,0,post_quali,logistic_regression
+6,Monaco Grand Prix,ALO,Aston Martin,2.6677783489164567e-05,21,0,post_quali,logistic_regression
+6,Monaco Grand Prix,STR,Aston Martin,8.88042253624572e-06,22,0,post_quali,logistic_regression
+7,Barcelona Grand Prix,RUS,Mercedes,0.09209687874173235,3,0,post_quali,logistic_regression
+7,Barcelona Grand Prix,HAM,Ferrari,0.10148100195140795,2,1,post_quali,logistic_regression
+7,Barcelona Grand Prix,ANT,Mercedes,0.7437618721158391,1,0,post_quali,logistic_regression
+7,Barcelona Grand Prix,NOR,McLaren,0.004339755215955194,7,0,post_quali,logistic_regression
+7,Barcelona Grand Prix,VER,Red Bull,0.0028401126590905973,10,0,post_quali,logistic_regression
+7,Barcelona Grand Prix,HAD,Red Bull,0.029766777798755584,4,0,post_quali,logistic_regression
+7,Barcelona Grand Prix,PIA,McLaren,0.007800663393645307,5,0,post_quali,logistic_regression
+7,Barcelona Grand Prix,LAW,RB F1 Team,0.004301815204646871,8,0,post_quali,logistic_regression
+7,Barcelona Grand Prix,HUL,Audi,0.0007752633965169524,13,0,post_quali,logistic_regression
+7,Barcelona Grand Prix,LEC,Ferrari,0.004526747709714425,6,0,post_quali,logistic_regression
+7,Barcelona Grand Prix,LIN,RB F1 Team,0.0023275992066809905,11,0,post_quali,logistic_regression
+7,Barcelona Grand Prix,BOR,Audi,0.003047300188296207,9,0,post_quali,logistic_regression
+7,Barcelona Grand Prix,COL,Alpine F1 Team,0.0013093369317211186,12,0,post_quali,logistic_regression
+7,Barcelona Grand Prix,GAS,Alpine F1 Team,0.0005678905559139007,14,0,post_quali,logistic_regression
+7,Barcelona Grand Prix,BEA,Haas F1 Team,0.00033268123217582087,16,0,post_quali,logistic_regression
+7,Barcelona Grand Prix,SAI,Williams,6.257246329397348e-05,17,0,post_quali,logistic_regression
+7,Barcelona Grand Prix,OCO,Haas F1 Team,0.0005389475127291893,15,0,post_quali,logistic_regression
+7,Barcelona Grand Prix,ALB,Williams,5.638796083575571e-05,18,0,post_quali,logistic_regression
+7,Barcelona Grand Prix,PER,Cadillac F1 Team,1.4938498132516472e-05,20,0,post_quali,logistic_regression
+7,Barcelona Grand Prix,BOT,Cadillac F1 Team,3.790064168786168e-05,19,0,post_quali,logistic_regression
+7,Barcelona Grand Prix,STR,Aston Martin,4.502806974542173e-06,22,0,post_quali,logistic_regression
+7,Barcelona Grand Prix,ALO,Aston Martin,9.053814253876203e-06,21,0,post_quali,logistic_regression
+8,Austrian Grand Prix,RUS,Mercedes,0.16537245479885482,2,1,post_quali,logistic_regression
+8,Austrian Grand Prix,LEC,Ferrari,0.045539360557889326,4,0,post_quali,logistic_regression
+8,Austrian Grand Prix,HAM,Ferrari,0.16185873023743058,3,0,post_quali,logistic_regression
+8,Austrian Grand Prix,ANT,Mercedes,0.49740139428699925,1,0,post_quali,logistic_regression
+8,Austrian Grand Prix,VER,Red Bull,0.013250421679329516,7,0,post_quali,logistic_regression
+8,Austrian Grand Prix,NOR,McLaren,0.011205973924150679,8,0,post_quali,logistic_regression
+8,Austrian Grand Prix,PIA,McLaren,0.026231111297018377,6,0,post_quali,logistic_regression
+8,Austrian Grand Prix,HAD,Red Bull,0.042421008532051295,5,0,post_quali,logistic_regression
+8,Austrian Grand Prix,LAW,RB F1 Team,0.010178715021622405,9,0,post_quali,logistic_regression
+8,Austrian Grand Prix,LIN,RB F1 Team,0.007949677393841025,11,0,post_quali,logistic_regression
+8,Austrian Grand Prix,GAS,Alpine F1 Team,0.0037661309353085124,12,0,post_quali,logistic_regression
+8,Austrian Grand Prix,BOR,Audi,0.008811180098338815,10,0,post_quali,logistic_regression
+8,Austrian Grand Prix,BEA,Haas F1 Team,0.0009569210175739604,15,0,post_quali,logistic_regression
+8,Austrian Grand Prix,HUL,Audi,0.00045894326986114077,16,0,post_quali,logistic_regression
+8,Austrian Grand Prix,OCO,Haas F1 Team,0.0026646656826545424,13,0,post_quali,logistic_regression
+8,Austrian Grand Prix,COL,Alpine F1 Team,0.0015281671978128015,14,0,post_quali,logistic_regression
+8,Austrian Grand Prix,SAI,Williams,0.0001849450154310413,17,0,post_quali,logistic_regression
+8,Austrian Grand Prix,ALB,Williams,0.0001171908835002731,18,0,post_quali,logistic_regression
+8,Austrian Grand Prix,PER,Cadillac F1 Team,4.1123855794011807e-05,20,0,post_quali,logistic_regression
+8,Austrian Grand Prix,BOT,Cadillac F1 Team,4.4774448971152304e-05,19,0,post_quali,logistic_regression
+8,Austrian Grand Prix,ALO,Aston Martin,1.381300357695943e-05,21,0,post_quali,logistic_regression
+8,Austrian Grand Prix,STR,Aston Martin,3.296861989228602e-06,22,0,post_quali,logistic_regression
+9,British Grand Prix,ANT,Mercedes,0.5978085375147609,1,0,post_quali,logistic_regression
+9,British Grand Prix,LEC,Ferrari,0.0617577435734966,5,1,post_quali,logistic_regression
+9,British Grand Prix,HAM,Ferrari,0.1252567130772266,2,0,post_quali,logistic_regression
+9,British Grand Prix,RUS,Mercedes,0.08912589592406413,3,0,post_quali,logistic_regression
+9,British Grand Prix,HAD,Red Bull,0.07674248808760588,4,0,post_quali,logistic_regression
+9,British Grand Prix,NOR,McLaren,0.010054083999554696,7,0,post_quali,logistic_regression
+9,British Grand Prix,VER,Red Bull,0.008491637249609543,8,0,post_quali,logistic_regression
+9,British Grand Prix,PIA,McLaren,0.011191839365901018,6,0,post_quali,logistic_regression
+9,British Grand Prix,LIN,RB F1 Team,0.006694336088561061,9,0,post_quali,logistic_regression
+9,British Grand Prix,LAW,RB F1 Team,0.004690221689103807,11,0,post_quali,logistic_regression
+9,British Grand Prix,BOR,Audi,0.005847935392314456,10,0,post_quali,logistic_regression
+9,British Grand Prix,HUL,Audi,0.0006951870145711436,12,0,post_quali,logistic_regression
+9,British Grand Prix,BEA,Haas F1 Team,0.00039999909970348907,14,0,post_quali,logistic_regression
+9,British Grand Prix,SAI,Williams,0.00013830901880730105,16,0,post_quali,logistic_regression
+9,British Grand Prix,GAS,Alpine F1 Team,0.0004665905426613369,13,0,post_quali,logistic_regression
+9,British Grand Prix,ALB,Williams,0.00011528705508909627,17,0,post_quali,logistic_regression
+9,British Grand Prix,OCO,Haas F1 Team,0.00037046685753178225,15,0,post_quali,logistic_regression
+9,British Grand Prix,BOT,Cadillac F1 Team,2.8027924999418466e-05,19,0,post_quali,logistic_regression
+9,British Grand Prix,COL,Alpine F1 Team,0.00011221181939857091,18,0,post_quali,logistic_regression
+9,British Grand Prix,PER,Cadillac F1 Team,8.548986985932955e-06,20,0,post_quali,logistic_regression
+9,British Grand Prix,ALO,Aston Martin,2.878294484700244e-06,21,0,post_quali,logistic_regression
+9,British Grand Prix,STR,Aston Martin,1.0614235684496594e-06,22,0,post_quali,logistic_regression
+10,Belgian Grand Prix,ANT,Mercedes,0.5141329565994661,1,1,post_quali,logistic_regression
+10,Belgian Grand Prix,VER,Red Bull,0.09962902220889625,3,0,post_quali,logistic_regression
+10,Belgian Grand Prix,RUS,Mercedes,0.1198971637968711,2,0,post_quali,logistic_regression
+10,Belgian Grand Prix,LEC,Ferrari,0.07986916604234429,5,0,post_quali,logistic_regression
+10,Belgian Grand Prix,HAM,Ferrari,0.08534838929504712,4,0,post_quali,logistic_regression
+10,Belgian Grand Prix,PIA,McLaren,0.029152096802553408,7,0,post_quali,logistic_regression
+10,Belgian Grand Prix,LIN,RB F1 Team,0.03077669839217128,6,0,post_quali,logistic_regression
+10,Belgian Grand Prix,BOR,Audi,0.019046500459120708,8,0,post_quali,logistic_regression
+10,Belgian Grand Prix,LAW,RB F1 Team,0.00811369033603586,9,0,post_quali,logistic_regression
+10,Belgian Grand Prix,GAS,Alpine F1 Team,0.003579399888539504,11,0,post_quali,logistic_regression
+10,Belgian Grand Prix,COL,Alpine F1 Team,0.004666663007726813,10,0,post_quali,logistic_regression
+10,Belgian Grand Prix,HUL,Audi,0.0006474102250746022,13,0,post_quali,logistic_regression
+10,Belgian Grand Prix,NOR,McLaren,0.003404706129013456,12,0,post_quali,logistic_regression
+10,Belgian Grand Prix,BEA,Haas F1 Team,0.0005267491888431286,15,0,post_quali,logistic_regression
+10,Belgian Grand Prix,ALB,Williams,0.00014646437202747652,17,0,post_quali,logistic_regression
+10,Belgian Grand Prix,OCO,Haas F1 Team,0.00031489356298339684,16,0,post_quali,logistic_regression
+10,Belgian Grand Prix,BOT,Cadillac F1 Team,4.835237028710595e-05,19,0,post_quali,logistic_regression
+10,Belgian Grand Prix,PER,Cadillac F1 Team,2.3278122290918324e-05,20,0,post_quali,logistic_regression
+10,Belgian Grand Prix,SAI,Williams,6.360748358041463e-05,18,0,post_quali,logistic_regression
+10,Belgian Grand Prix,STR,Aston Martin,1.1760947756751169e-06,22,0,post_quali,logistic_regression
+10,Belgian Grand Prix,HAD,Red Bull,0.0006101134915077442,14,0,post_quali,logistic_regression
+10,Belgian Grand Prix,ALO,Aston Martin,1.5021308435527116e-06,21,0,post_quali,logistic_regression
+11,Hungarian Grand Prix,NOR,McLaren,0.17080935334235375,3,1,post_quali,logistic_regression
+11,Hungarian Grand Prix,LEC,Ferrari,0.19759042060213575,1,0,post_quali,logistic_regression
+11,Hungarian Grand Prix,PIA,McLaren,0.09822148193082288,5,0,post_quali,logistic_regression
+11,Hungarian Grand Prix,VER,Red Bull,0.05339502376593145,6,0,post_quali,logistic_regression
+11,Hungarian Grand Prix,HAM,Ferrari,0.15659655121548294,4,0,post_quali,logistic_regression
+11,Hungarian Grand Prix,RUS,Mercedes,0.052774342284267195,7,0,post_quali,logistic_regression
+11,Hungarian Grand Prix,ANT,Mercedes,0.19724461095992038,2,0,post_quali,logistic_regression
+11,Hungarian Grand Prix,HAD,Red Bull,0.046398649626217335,8,0,post_quali,logistic_regression
+11,Hungarian Grand Prix,LIN,RB F1 Team,0.01153839998920554,9,0,post_quali,logistic_regression
+11,Hungarian Grand Prix,HUL,Audi,0.0022425599175171815,12,0,post_quali,logistic_regression
+11,Hungarian Grand Prix,LAW,RB F1 Team,0.005503480549651648,10,0,post_quali,logistic_regression
+11,Hungarian Grand Prix,GAS,Alpine F1 Team,0.002056613823523279,13,0,post_quali,logistic_regression
+11,Hungarian Grand Prix,COL,Alpine F1 Team,0.002572071649970823,11,0,post_quali,logistic_regression
+11,Hungarian Grand Prix,BOR,Audi,0.002056432572675463,14,0,post_quali,logistic_regression
+11,Hungarian Grand Prix,OCO,Haas F1 Team,0.0007449136720853137,15,0,post_quali,logistic_regression
+11,Hungarian Grand Prix,ALO,Aston Martin,8.255449281854496e-05,17,0,post_quali,logistic_regression
+11,Hungarian Grand Prix,BEA,Haas F1 Team,0.00010679346794569404,16,0,post_quali,logistic_regression
+11,Hungarian Grand Prix,SAI,Williams,2.8065912462021593e-05,18,0,post_quali,logistic_regression
+11,Hungarian Grand Prix,ALB,Williams,1.972780096688203e-05,19,0,post_quali,logistic_regression
+11,Hungarian Grand Prix,STR,Aston Martin,5.056568267331713e-06,21,0,post_quali,logistic_regression
+11,Hungarian Grand Prix,BOT,Cadillac F1 Team,1.02922424359423e-05,20,0,post_quali,logistic_regression
+11,Hungarian Grand Prix,PER,Cadillac F1 Team,2.603613342510231e-06,22,0,post_quali,logistic_regression
+12,Dutch Grand Prix,NOR,McLaren,0.17828320948486326,3,1,post_quali,logistic_regression
+12,Dutch Grand Prix,RUS,Mercedes,0.18631090817283003,2,0,post_quali,logistic_regression
+12,Dutch Grand Prix,ANT,Mercedes,0.32580510353309355,1,0,post_quali,logistic_regression
+12,Dutch Grand Prix,PIA,McLaren,0.09268075419847875,4,0,post_quali,logistic_regression
+12,Dutch Grand Prix,HAM,Ferrari,0.09220202490316634,5,0,post_quali,logistic_regression
+12,Dutch Grand Prix,LEC,Ferrari,0.04519203877068297,6,0,post_quali,logistic_regression
+12,Dutch Grand Prix,VER,Red Bull,0.021964274197288275,8,0,post_quali,logistic_regression
+12,Dutch Grand Prix,LAW,Red Bull,0.031484898900767194,7,0,post_quali,logistic_regression
+12,Dutch Grand Prix,BOR,Audi,0.014258604297880149,9,0,post_quali,logistic_regression
+12,Dutch Grand Prix,LIN,RB F1 Team,0.005301277215543461,10,0,post_quali,logistic_regression
+12,Dutch Grand Prix,GAS,Alpine F1 Team,0.0019409674220540508,12,0,post_quali,logistic_regression
+12,Dutch Grand Prix,TSU,RB F1 Team,0.002243734436769887,11,0,post_quali,logistic_regression
+12,Dutch Grand Prix,HUL,Audi,0.0006330635080281297,14,0,post_quali,logistic_regression
+12,Dutch Grand Prix,COL,Alpine F1 Team,0.000987933169076002,13,0,post_quali,logistic_regression
+12,Dutch Grand Prix,OCO,Haas F1 Team,0.0005041608015566799,15,0,post_quali,logistic_regression
+12,Dutch Grand Prix,ALB,Williams,9.968727225817779e-05,16,0,post_quali,logistic_regression
+12,Dutch Grand Prix,SAI,Williams,3.6835000908226763e-05,17,0,post_quali,logistic_regression
+12,Dutch Grand Prix,ALO,Aston Martin,3.059258609297234e-05,18,0,post_quali,logistic_regression
+12,Dutch Grand Prix,STR,Aston Martin,9.996750588263913e-06,20,0,post_quali,logistic_regression
+12,Dutch Grand Prix,BEA,Haas F1 Team,2.2617835260974366e-05,19,0,post_quali,logistic_regression
+12,Dutch Grand Prix,BOT,Cadillac F1 Team,5.642663917009395e-06,21,0,post_quali,logistic_regression
+12,Dutch Grand Prix,PER,Cadillac F1 Team,1.6748788958921123e-06,22,0,post_quali,logistic_regression
+13,Italian Grand Prix,GAS,Alpine F1 Team,0.23213500908108084,2,0,post_quali,logistic_regression
+13,Italian Grand Prix,RUS,Mercedes,0.25678884287188786,1,0,post_quali,logistic_regression
+13,Italian Grand Prix,LEC,Ferrari,0.1714737247526146,3,0,post_quali,logistic_regression
+13,Italian Grand Prix,HAM,Ferrari,0.15388174881529446,4,0,post_quali,logistic_regression
+13,Italian Grand Prix,VER,Red Bull,0.04724261357391114,6,0,post_quali,logistic_regression
+13,Italian Grand Prix,PIA,McLaren,0.056940525009699934,5,0,post_quali,logistic_regression
+13,Italian Grand Prix,COL,Alpine F1 Team,0.0279036790574359,7,0,post_quali,logistic_regression
+13,Italian Grand Prix,NOR,McLaren,0.022128508245327642,8,0,post_quali,logistic_regression
+13,Italian Grand Prix,LIN,RB F1 Team,0.012086058340419772,10,0,post_quali,logistic_regression
+13,Italian Grand Prix,BOR,Audi,0.013320036270420062,9,0,post_quali,logistic_regression
+13,Italian Grand Prix,BEA,Haas F1 Team,0.0017886928037868027,12,0,post_quali,logistic_regression
+13,Italian Grand Prix,HUL,Audi,0.0019293196531253163,11,0,post_quali,logistic_regression
+13,Italian Grand Prix,SAI,Williams,0.00022865996313737788,16,0,post_quali,logistic_regression
+13,Italian Grand Prix,OCO,Haas F1 Team,0.0004968564991497009,14,0,post_quali,logistic_regression
+13,Italian Grand Prix,TSU,RB F1 Team,0.0002621306021827726,15,0,post_quali,logistic_regression
+13,Italian Grand Prix,BOT,Cadillac F1 Team,4.188667572082044e-05,18,0,post_quali,logistic_regression
+13,Italian Grand Prix,PER,Cadillac F1 Team,1.3924533800860926e-05,19,0,post_quali,logistic_regression
+13,Italian Grand Prix,STR,Aston Martin,6.629647376565558e-06,21,0,post_quali,logistic_regression
+13,Italian Grand Prix,ANT,Mercedes,0.0012272350504211155,13,1,post_quali,logistic_regression
+13,Italian Grand Prix,ALB,Williams,1.0142094195722932e-05,20,0,post_quali,logistic_regression
+13,Italian Grand Prix,ALO,Aston Martin,3.7019776379066386e-06,22,0,post_quali,logistic_regression
+13,Italian Grand Prix,LAW,Red Bull,9.007448137276952e-05,17,0,post_quali,logistic_regression
+14,Spanish Grand Prix,NOR,McLaren,0.15345839961895003,2,0,post_quali,logistic_regression
+14,Spanish Grand Prix,ANT,Mercedes,0.4507637296341563,1,1,post_quali,logistic_regression
+14,Spanish Grand Prix,VER,Red Bull,0.047238535977906164,6,0,post_quali,logistic_regression
+14,Spanish Grand Prix,HAM,Ferrari,0.13252356758438072,3,0,post_quali,logistic_regression
+14,Spanish Grand Prix,LEC,Ferrari,0.06432953282373198,5,0,post_quali,logistic_regression
+14,Spanish Grand Prix,RUS,Mercedes,0.08759689148888788,4,0,post_quali,logistic_regression
+14,Spanish Grand Prix,PIA,McLaren,0.03098956785509523,7,0,post_quali,logistic_regression
+14,Spanish Grand Prix,LAW,Red Bull,0.01872205662776822,8,0,post_quali,logistic_regression
+14,Spanish Grand Prix,COL,Alpine F1 Team,0.005220019232713535,9,0,post_quali,logistic_regression
+14,Spanish Grand Prix,LIN,RB F1 Team,0.0027580348805646077,11,0,post_quali,logistic_regression
+14,Spanish Grand Prix,HUL,Audi,0.0014079255491179648,12,0,post_quali,logistic_regression
+14,Spanish Grand Prix,BOR,Audi,0.0029579079574027656,10,0,post_quali,logistic_regression
+14,Spanish Grand Prix,OCO,Haas F1 Team,0.0006175153423013742,15,0,post_quali,logistic_regression
+14,Spanish Grand Prix,GAS,Alpine F1 Team,0.0006189697742870566,14,0,post_quali,logistic_regression
+14,Spanish Grand Prix,TSU,RB F1 Team,0.0007491138279234987,13,0,post_quali,logistic_regression
+14,Spanish Grand Prix,ALB,Williams,2.1297009433518473e-05,16,0,post_quali,logistic_regression
+14,Spanish Grand Prix,ALO,Aston Martin,1.60478572259723e-05,17,0,post_quali,logistic_regression
+14,Spanish Grand Prix,PER,Cadillac F1 Team,3.487271367561242e-06,19,0,post_quali,logistic_regression
+14,Spanish Grand Prix,BOT,Cadillac F1 Team,3.61764542858605e-07,20,0,post_quali,logistic_regression
+14,Spanish Grand Prix,SAI,Williams,6.905506168120615e-06,18,0,post_quali,logistic_regression
+14,Spanish Grand Prix,STR,Aston Martin,4.748516168866659e-08,22,0,post_quali,logistic_regression
+14,Spanish Grand Prix,BEA,Haas F1 Team,8.493091316667267e-08,21,0,post_quali,logistic_regression
+15,Azerbaijan Grand Prix,RUS,Mercedes,0.5814168060743008,1,1,post_quali,logistic_regression
+15,Azerbaijan Grand Prix,LEC,Ferrari,0.07535187175266309,4,0,post_quali,logistic_regression
+15,Azerbaijan Grand Prix,PIA,McLaren,0.07650084318063936,3,0,post_quali,logistic_regression
+15,Azerbaijan Grand Prix,HAD,Red Bull,0.13388633251335835,2,0,post_quali,logistic_regression
+15,Azerbaijan Grand Prix,NOR,McLaren,0.05323530216830919,5,0,post_quali,logistic_regression
+15,Azerbaijan Grand Prix,HAM,Ferrari,0.03871829913803159,6,0,post_quali,logistic_regression
+15,Azerbaijan Grand Prix,GAS,Alpine F1 Team,0.005795754417327708,9,0,post_quali,logistic_regression
+15,Azerbaijan Grand Prix,VER,Red Bull,0.016539820800604607,7,0,post_quali,logistic_regression
+15,Azerbaijan Grand Prix,COL,Alpine F1 Team,0.002743344096625197,10,0,post_quali,logistic_regression
+15,Azerbaijan Grand Prix,BEA,Haas F1 Team,0.0006715453697929365,12,0,post_quali,logistic_regression
+15,Azerbaijan Grand Prix,LAW,RB F1 Team,0.001947971840389669,11,0,post_quali,logistic_regression
+15,Azerbaijan Grand Prix,ALB,Williams,0.0003196141129724855,16,0,post_quali,logistic_regression
+15,Azerbaijan Grand Prix,OCO,Haas F1 Team,0.0005605785864014862,13,0,post_quali,logistic_regression
+15,Azerbaijan Grand Prix,SAI,Williams,0.00020108508559903292,17,0,post_quali,logistic_regression
+15,Azerbaijan Grand Prix,LIN,RB F1 Team,0.0004109351188734971,14,0,post_quali,logistic_regression
+15,Azerbaijan Grand Prix,ANT,Mercedes,0.01124077209057285,8,0,post_quali,logistic_regression
+15,Azerbaijan Grand Prix,BOR,Audi,0.00036289910496240186,15,0,post_quali,logistic_regression
+15,Azerbaijan Grand Prix,HUL,Audi,7.871863498881685e-05,18,0,post_quali,logistic_regression
+15,Azerbaijan Grand Prix,BOT,Cadillac F1 Team,1.6355098351319447e-06,22,0,post_quali,logistic_regression
+15,Azerbaijan Grand Prix,PER,Cadillac F1 Team,4.299539993464302e-06,20,0,post_quali,logistic_regression
+15,Azerbaijan Grand Prix,ALO,Aston Martin,9.708679756641062e-06,19,0,post_quali,logistic_regression
+15,Azerbaijan Grand Prix,STR,Aston Martin,1.8621840015463642e-06,21,0,post_quali,logistic_regression
+16,Bahrain Grand Prix,VER,Red Bull,0.11823709536495144,3,1,post_quali,logistic_regression
+16,Bahrain Grand Prix,HAM,Ferrari,0.11935133512441025,2,0,post_quali,logistic_regression
+16,Bahrain Grand Prix,ANT,Mercedes,0.5110474292943364,1,0,post_quali,logistic_regression
+16,Bahrain Grand Prix,LEC,Ferrari,0.039040347401501245,6,0,post_quali,logistic_regression
+16,Bahrain Grand Prix,NOR,McLaren,0.03152884992426958,7,0,post_quali,logistic_regression
+16,Bahrain Grand Prix,PIA,McLaren,0.021888380954156947,8,0,post_quali,logistic_regression
+16,Bahrain Grand Prix,RUS,Mercedes,0.09159310007944589,4,0,post_quali,logistic_regression
+16,Bahrain Grand Prix,HAD,Red Bull,0.06134312534748401,5,0,post_quali,logistic_regression
+16,Bahrain Grand Prix,GAS,Alpine F1 Team,0.0016565662460302922,10,0,post_quali,logistic_regression
+16,Bahrain Grand Prix,BOR,Audi,0.0025659823754765475,9,0,post_quali,logistic_regression
+16,Bahrain Grand Prix,LAW,RB F1 Team,0.0011933392468452052,11,0,post_quali,logistic_regression
+16,Bahrain Grand Prix,ALO,Aston Martin,0.0001365389247158451,12,0,post_quali,logistic_regression
+16,Bahrain Grand Prix,SAI,Williams,5.2847920458194864e-05,15,0,post_quali,logistic_regression
+16,Bahrain Grand Prix,STR,Aston Martin,3.769985699345028e-05,18,0,post_quali,logistic_regression
+16,Bahrain Grand Prix,HUL,Audi,7.067798186032781e-05,14,0,post_quali,logistic_regression
+16,Bahrain Grand Prix,BEA,Haas F1 Team,4.844955934994875e-05,17,0,post_quali,logistic_regression
+16,Bahrain Grand Prix,OCO,Haas F1 Team,5.0390064526844666e-05,16,0,post_quali,logistic_regression
+16,Bahrain Grand Prix,ALB,Williams,1.0432259129624326e-05,20,0,post_quali,logistic_regression
+16,Bahrain Grand Prix,BOT,Cadillac F1 Team,8.139673109904992e-06,21,0,post_quali,logistic_regression
+16,Bahrain Grand Prix,PER,Cadillac F1 Team,2.0298368347850543e-06,22,0,post_quali,logistic_regression
+16,Bahrain Grand Prix,COL,Alpine F1 Team,0.00010311499723943455,13,0,post_quali,logistic_regression
+16,Bahrain Grand Prix,LIN,RB F1 Team,3.412756687365955e-05,19,0,post_quali,logistic_regression
+17,Singapore Grand Prix,VER,Red Bull,0.17777899038691022,2,1,post_quali,logistic_regression
+17,Singapore Grand Prix,LEC,Ferrari,0.12642479719372868,4,0,post_quali,logistic_regression
+17,Singapore Grand Prix,HAM,Ferrari,0.14205977124792907,3,0,post_quali,logistic_regression
+17,Singapore Grand Prix,ANT,Mercedes,0.4385982249083698,1,0,post_quali,logistic_regression
+17,Singapore Grand Prix,NOR,McLaren,0.0536604688650776,5,0,post_quali,logistic_regression
+17,Singapore Grand Prix,PIA,McLaren,0.03253054527195222,6,0,post_quali,logistic_regression
+17,Singapore Grand Prix,GAS,Alpine F1 Team,0.005494735935382416,9,0,post_quali,logistic_regression
+17,Singapore Grand Prix,LAW,RB F1 Team,0.008095066558013017,8,0,post_quali,logistic_regression
+17,Singapore Grand Prix,LIN,RB F1 Team,0.002831308428462296,10,0,post_quali,logistic_regression
+17,Singapore Grand Prix,HUL,Audi,0.0011741159776820168,11,0,post_quali,logistic_regression
+17,Singapore Grand Prix,BEA,Haas F1 Team,0.0007560384753475273,12,0,post_quali,logistic_regression
+17,Singapore Grand Prix,OCO,Haas F1 Team,0.000544601883813018,13,0,post_quali,logistic_regression
+17,Singapore Grand Prix,SAI,Williams,8.267399591146209e-05,16,0,post_quali,logistic_regression
+17,Singapore Grand Prix,BOR,Audi,0.00039312536471058945,14,0,post_quali,logistic_regression
+17,Singapore Grand Prix,COL,Alpine F1 Team,0.00032066302112060944,15,0,post_quali,logistic_regression
+17,Singapore Grand Prix,ALB,Williams,2.3263515289432706e-05,17,0,post_quali,logistic_regression
+17,Singapore Grand Prix,PER,Cadillac F1 Team,3.0902006998780214e-06,19,0,post_quali,logistic_regression
+17,Singapore Grand Prix,BOT,Cadillac F1 Team,1.3211231417559059e-06,22,0,post_quali,logistic_regression
+17,Singapore Grand Prix,RUS,Mercedes,0.009211334468500133,7,0,post_quali,logistic_regression
+17,Singapore Grand Prix,ALO,Aston Martin,1.14078546838421e-05,18,0,post_quali,logistic_regression
+17,Singapore Grand Prix,STR,Aston Martin,2.0804269582995496e-06,21,0,post_quali,logistic_regression
+17,Singapore Grand Prix,HAD,Red Bull,2.3748963162655754e-06,20,0,post_quali,logistic_regression
+6,Monaco Grand Prix,ANT,Mercedes,0.5498003835038796,1,1,post_quali,gradient_boosting
+6,Monaco Grand Prix,VER,Red Bull,0.43334149486815543,2,0,post_quali,gradient_boosting
+6,Monaco Grand Prix,HAM,Ferrari,0.0008806572085261183,3,0,post_quali,gradient_boosting
+6,Monaco Grand Prix,LEC,Ferrari,0.0008806572085261183,4,0,post_quali,gradient_boosting
+6,Monaco Grand Prix,HAD,Red Bull,0.0008806572085261183,5,0,post_quali,gradient_boosting
+6,Monaco Grand Prix,RUS,Mercedes,0.00012563466596904427,22,0,post_quali,gradient_boosting
+6,Monaco Grand Prix,PIA,McLaren,0.0008806572085261183,6,0,post_quali,gradient_boosting
+6,Monaco Grand Prix,NOR,McLaren,0.0008806572085261183,7,0,post_quali,gradient_boosting
+6,Monaco Grand Prix,GAS,Alpine F1 Team,0.0008806572085261183,8,0,post_quali,gradient_boosting
+6,Monaco Grand Prix,LAW,RB F1 Team,0.0008806572085261183,9,0,post_quali,gradient_boosting
+6,Monaco Grand Prix,ALB,Williams,0.0008806572085261183,10,0,post_quali,gradient_boosting
+6,Monaco Grand Prix,SAI,Williams,0.0008806572085261183,11,0,post_quali,gradient_boosting
+6,Monaco Grand Prix,HUL,Audi,0.0008806572085261183,12,0,post_quali,gradient_boosting
+6,Monaco Grand Prix,COL,Alpine F1 Team,0.0008806572085261183,13,0,post_quali,gradient_boosting
+6,Monaco Grand Prix,LIN,RB F1 Team,0.0008806572085261183,14,0,post_quali,gradient_boosting
+6,Monaco Grand Prix,BOR,Audi,0.0008806572085261183,15,0,post_quali,gradient_boosting
+6,Monaco Grand Prix,OCO,Haas F1 Team,0.0008806572085261183,16,0,post_quali,gradient_boosting
+6,Monaco Grand Prix,PER,Cadillac F1 Team,0.0008806572085261183,17,0,post_quali,gradient_boosting
+6,Monaco Grand Prix,BEA,Haas F1 Team,0.0008806572085261183,18,0,post_quali,gradient_boosting
+6,Monaco Grand Prix,BOT,Cadillac F1 Team,0.0008806572085261183,19,0,post_quali,gradient_boosting
+6,Monaco Grand Prix,ALO,Aston Martin,0.0008806572085261183,20,0,post_quali,gradient_boosting
+6,Monaco Grand Prix,STR,Aston Martin,0.0008806572085261183,21,0,post_quali,gradient_boosting
+7,Barcelona Grand Prix,RUS,Mercedes,0.5861971349977515,1,0,post_quali,gradient_boosting
+7,Barcelona Grand Prix,HAM,Ferrari,0.05958784590987368,3,1,post_quali,gradient_boosting
+7,Barcelona Grand Prix,ANT,Mercedes,0.30044064766688533,2,0,post_quali,gradient_boosting
+7,Barcelona Grand Prix,NOR,McLaren,0.0028302300750257703,4,0,post_quali,gradient_boosting
+7,Barcelona Grand Prix,VER,Red Bull,0.0028302300750257703,5,0,post_quali,gradient_boosting
+7,Barcelona Grand Prix,HAD,Red Bull,0.0028302300750257703,6,0,post_quali,gradient_boosting
+7,Barcelona Grand Prix,PIA,McLaren,0.0028302300750257703,7,0,post_quali,gradient_boosting
+7,Barcelona Grand Prix,LAW,RB F1 Team,0.0028302300750257703,8,0,post_quali,gradient_boosting
+7,Barcelona Grand Prix,HUL,Audi,0.0028302300750257703,9,0,post_quali,gradient_boosting
+7,Barcelona Grand Prix,LEC,Ferrari,0.0028302300750257703,10,0,post_quali,gradient_boosting
+7,Barcelona Grand Prix,LIN,RB F1 Team,0.0028302300750257703,11,0,post_quali,gradient_boosting
+7,Barcelona Grand Prix,BOR,Audi,0.0028302300750257703,12,0,post_quali,gradient_boosting
+7,Barcelona Grand Prix,COL,Alpine F1 Team,0.0028302300750257703,13,0,post_quali,gradient_boosting
+7,Barcelona Grand Prix,GAS,Alpine F1 Team,0.0028302300750257703,14,0,post_quali,gradient_boosting
+7,Barcelona Grand Prix,BEA,Haas F1 Team,0.0028302300750257703,15,0,post_quali,gradient_boosting
+7,Barcelona Grand Prix,SAI,Williams,0.0028302300750257703,16,0,post_quali,gradient_boosting
+7,Barcelona Grand Prix,OCO,Haas F1 Team,0.0028302300750257703,17,0,post_quali,gradient_boosting
+7,Barcelona Grand Prix,ALB,Williams,0.0028302300750257703,18,0,post_quali,gradient_boosting
+7,Barcelona Grand Prix,PER,Cadillac F1 Team,0.0028302300750257703,19,0,post_quali,gradient_boosting
+7,Barcelona Grand Prix,BOT,Cadillac F1 Team,0.0028302300750257703,20,0,post_quali,gradient_boosting
+7,Barcelona Grand Prix,STR,Aston Martin,0.0028302300750257703,21,0,post_quali,gradient_boosting
+7,Barcelona Grand Prix,ALO,Aston Martin,0.0028302300750257703,22,0,post_quali,gradient_boosting
+8,Austrian Grand Prix,RUS,Mercedes,0.9227457367128876,1,1,post_quali,gradient_boosting
+8,Austrian Grand Prix,LEC,Ferrari,0.0035687391130689774,3,0,post_quali,gradient_boosting
+8,Austrian Grand Prix,HAM,Ferrari,0.006553727782352439,2,0,post_quali,gradient_boosting
+8,Austrian Grand Prix,ANT,Mercedes,0.0028944923564494236,22,0,post_quali,gradient_boosting
+8,Austrian Grand Prix,VER,Red Bull,0.0035687391130689774,4,0,post_quali,gradient_boosting
+8,Austrian Grand Prix,NOR,McLaren,0.0035687391130689774,5,0,post_quali,gradient_boosting
+8,Austrian Grand Prix,PIA,McLaren,0.0035687391130689774,6,0,post_quali,gradient_boosting
+8,Austrian Grand Prix,HAD,Red Bull,0.0035687391130689774,7,0,post_quali,gradient_boosting
+8,Austrian Grand Prix,LAW,RB F1 Team,0.0035687391130689774,8,0,post_quali,gradient_boosting
+8,Austrian Grand Prix,LIN,RB F1 Team,0.0035687391130689774,9,0,post_quali,gradient_boosting
+8,Austrian Grand Prix,GAS,Alpine F1 Team,0.0035687391130689774,10,0,post_quali,gradient_boosting
+8,Austrian Grand Prix,BOR,Audi,0.0035687391130689774,11,0,post_quali,gradient_boosting
+8,Austrian Grand Prix,BEA,Haas F1 Team,0.0035687391130689774,12,0,post_quali,gradient_boosting
+8,Austrian Grand Prix,HUL,Audi,0.0035687391130689774,13,0,post_quali,gradient_boosting
+8,Austrian Grand Prix,OCO,Haas F1 Team,0.0035687391130689774,14,0,post_quali,gradient_boosting
+8,Austrian Grand Prix,COL,Alpine F1 Team,0.0035687391130689774,15,0,post_quali,gradient_boosting
+8,Austrian Grand Prix,SAI,Williams,0.0035687391130689774,16,0,post_quali,gradient_boosting
+8,Austrian Grand Prix,ALB,Williams,0.0035687391130689774,17,0,post_quali,gradient_boosting
+8,Austrian Grand Prix,PER,Cadillac F1 Team,0.0035687391130689774,18,0,post_quali,gradient_boosting
+8,Austrian Grand Prix,BOT,Cadillac F1 Team,0.0035687391130689774,19,0,post_quali,gradient_boosting
+8,Austrian Grand Prix,ALO,Aston Martin,0.0035687391130689774,20,0,post_quali,gradient_boosting
+8,Austrian Grand Prix,STR,Aston Martin,0.0035687391130689774,21,0,post_quali,gradient_boosting
+9,British Grand Prix,ANT,Mercedes,0.9763956060756397,1,0,post_quali,gradient_boosting
+9,British Grand Prix,LEC,Ferrari,0.00021247610834102727,21,1,post_quali,gradient_boosting
+9,British Grand Prix,HAM,Ferrari,0.00040028302829361813,18,0,post_quali,gradient_boosting
+9,British Grand Prix,RUS,Mercedes,0.00040028302829361813,19,0,post_quali,gradient_boosting
+9,British Grand Prix,HAD,Red Bull,0.0013853785326233253,2,0,post_quali,gradient_boosting
+9,British Grand Prix,NOR,McLaren,0.00021247610834102727,22,0,post_quali,gradient_boosting
+9,British Grand Prix,VER,Red Bull,0.0013853785326233253,3,0,post_quali,gradient_boosting
+9,British Grand Prix,PIA,McLaren,0.00021281912911817817,20,0,post_quali,gradient_boosting
+9,British Grand Prix,LIN,RB F1 Team,0.0013853785326233253,4,0,post_quali,gradient_boosting
+9,British Grand Prix,LAW,RB F1 Team,0.0013853785326233253,5,0,post_quali,gradient_boosting
+9,British Grand Prix,BOR,Audi,0.0013853785326233253,6,0,post_quali,gradient_boosting
+9,British Grand Prix,HUL,Audi,0.0013853785326233253,7,0,post_quali,gradient_boosting
+9,British Grand Prix,BEA,Haas F1 Team,0.0013853785326233253,8,0,post_quali,gradient_boosting
+9,British Grand Prix,SAI,Williams,0.0013853785326233253,9,0,post_quali,gradient_boosting
+9,British Grand Prix,GAS,Alpine F1 Team,0.0013853785326233253,10,0,post_quali,gradient_boosting
+9,British Grand Prix,ALB,Williams,0.0013853785326233253,11,0,post_quali,gradient_boosting
+9,British Grand Prix,OCO,Haas F1 Team,0.0013853785326233253,12,0,post_quali,gradient_boosting
+9,British Grand Prix,BOT,Cadillac F1 Team,0.0013853785326233253,13,0,post_quali,gradient_boosting
+9,British Grand Prix,COL,Alpine F1 Team,0.0013853785326233253,14,0,post_quali,gradient_boosting
+9,British Grand Prix,PER,Cadillac F1 Team,0.0013853785326233253,15,0,post_quali,gradient_boosting
+9,British Grand Prix,ALO,Aston Martin,0.0013853785326233253,16,0,post_quali,gradient_boosting
+9,British Grand Prix,STR,Aston Martin,0.0013853785326233253,17,0,post_quali,gradient_boosting
+10,Belgian Grand Prix,ANT,Mercedes,0.6403144052962841,1,1,post_quali,gradient_boosting
+10,Belgian Grand Prix,VER,Red Bull,0.0200045408478136,5,0,post_quali,gradient_boosting
+10,Belgian Grand Prix,RUS,Mercedes,0.03951744831944163,3,0,post_quali,gradient_boosting
+10,Belgian Grand Prix,LEC,Ferrari,0.03951744831944163,4,0,post_quali,gradient_boosting
+10,Belgian Grand Prix,HAM,Ferrari,0.01501922251418714,6,0,post_quali,gradient_boosting
+10,Belgian Grand Prix,PIA,McLaren,0.012881634751612742,7,0,post_quali,gradient_boosting
+10,Belgian Grand Prix,LIN,RB F1 Team,0.012881634751612742,8,0,post_quali,gradient_boosting
+10,Belgian Grand Prix,BOR,Audi,0.012881634751612742,9,0,post_quali,gradient_boosting
+10,Belgian Grand Prix,LAW,RB F1 Team,0.012881634751612742,10,0,post_quali,gradient_boosting
+10,Belgian Grand Prix,GAS,Alpine F1 Team,0.012881634751612742,11,0,post_quali,gradient_boosting
+10,Belgian Grand Prix,COL,Alpine F1 Team,0.012881634751612742,12,0,post_quali,gradient_boosting
+10,Belgian Grand Prix,HUL,Audi,0.012881634751612742,13,0,post_quali,gradient_boosting
+10,Belgian Grand Prix,NOR,McLaren,0.03952077867702823,2,0,post_quali,gradient_boosting
+10,Belgian Grand Prix,BEA,Haas F1 Team,0.012881634751612742,14,0,post_quali,gradient_boosting
+10,Belgian Grand Prix,ALB,Williams,0.012881634751612742,15,0,post_quali,gradient_boosting
+10,Belgian Grand Prix,OCO,Haas F1 Team,0.012881634751612742,16,0,post_quali,gradient_boosting
+10,Belgian Grand Prix,BOT,Cadillac F1 Team,0.012881634751612742,17,0,post_quali,gradient_boosting
+10,Belgian Grand Prix,PER,Cadillac F1 Team,0.012881634751612742,18,0,post_quali,gradient_boosting
+10,Belgian Grand Prix,SAI,Williams,0.012881634751612742,19,0,post_quali,gradient_boosting
+10,Belgian Grand Prix,STR,Aston Martin,0.012881634751612742,20,0,post_quali,gradient_boosting
+10,Belgian Grand Prix,HAD,Red Bull,0.012881634751612742,21,0,post_quali,gradient_boosting
+10,Belgian Grand Prix,ALO,Aston Martin,0.012881634751612742,22,0,post_quali,gradient_boosting
+11,Hungarian Grand Prix,NOR,McLaren,0.06864038334063664,2,1,post_quali,gradient_boosting
+11,Hungarian Grand Prix,LEC,Ferrari,0.002786154460516204,21,0,post_quali,gradient_boosting
+11,Hungarian Grand Prix,PIA,McLaren,0.003504239826283304,4,0,post_quali,gradient_boosting
+11,Hungarian Grand Prix,VER,Red Bull,0.003504239826283304,5,0,post_quali,gradient_boosting
+11,Hungarian Grand Prix,HAM,Ferrari,0.8665392042021968,1,0,post_quali,gradient_boosting
+11,Hungarian Grand Prix,RUS,Mercedes,0.002786154460516204,22,0,post_quali,gradient_boosting
+11,Hungarian Grand Prix,ANT,Mercedes,0.009600413016006297,3,0,post_quali,gradient_boosting
+11,Hungarian Grand Prix,HAD,Red Bull,0.0028426140578374373,6,0,post_quali,gradient_boosting
+11,Hungarian Grand Prix,LIN,RB F1 Team,0.0028426140578374373,7,0,post_quali,gradient_boosting
+11,Hungarian Grand Prix,HUL,Audi,0.0028426140578374373,8,0,post_quali,gradient_boosting
+11,Hungarian Grand Prix,LAW,RB F1 Team,0.0028426140578374373,9,0,post_quali,gradient_boosting
+11,Hungarian Grand Prix,GAS,Alpine F1 Team,0.0028426140578374373,10,0,post_quali,gradient_boosting
+11,Hungarian Grand Prix,COL,Alpine F1 Team,0.0028426140578374373,11,0,post_quali,gradient_boosting
+11,Hungarian Grand Prix,BOR,Audi,0.0028426140578374373,12,0,post_quali,gradient_boosting
+11,Hungarian Grand Prix,OCO,Haas F1 Team,0.0028426140578374373,13,0,post_quali,gradient_boosting
+11,Hungarian Grand Prix,ALO,Aston Martin,0.0028426140578374373,14,0,post_quali,gradient_boosting
+11,Hungarian Grand Prix,BEA,Haas F1 Team,0.0028426140578374373,15,0,post_quali,gradient_boosting
+11,Hungarian Grand Prix,SAI,Williams,0.0028426140578374373,16,0,post_quali,gradient_boosting
+11,Hungarian Grand Prix,ALB,Williams,0.0028426140578374373,17,0,post_quali,gradient_boosting
+11,Hungarian Grand Prix,STR,Aston Martin,0.0028426140578374373,18,0,post_quali,gradient_boosting
+11,Hungarian Grand Prix,BOT,Cadillac F1 Team,0.0028426140578374373,19,0,post_quali,gradient_boosting
+11,Hungarian Grand Prix,PER,Cadillac F1 Team,0.0028426140578374373,20,0,post_quali,gradient_boosting
+12,Dutch Grand Prix,NOR,McLaren,0.46573555543675066,1,1,post_quali,gradient_boosting
+12,Dutch Grand Prix,RUS,Mercedes,0.31017330071115556,2,0,post_quali,gradient_boosting
+12,Dutch Grand Prix,ANT,Mercedes,0.14054306735757438,3,0,post_quali,gradient_boosting
+12,Dutch Grand Prix,PIA,McLaren,0.05646635961902873,4,0,post_quali,gradient_boosting
+12,Dutch Grand Prix,HAM,Ferrari,0.0014072401012973372,22,0,post_quali,gradient_boosting
+12,Dutch Grand Prix,LEC,Ferrari,0.0016333659988503875,6,0,post_quali,gradient_boosting
+12,Dutch Grand Prix,VER,Red Bull,0.0016333659988503875,7,0,post_quali,gradient_boosting
+12,Dutch Grand Prix,LAW,Red Bull,0.0016879065432104422,5,0,post_quali,gradient_boosting
+12,Dutch Grand Prix,BOR,Audi,0.0014799884452344118,8,0,post_quali,gradient_boosting
+12,Dutch Grand Prix,LIN,RB F1 Team,0.0014799884452344118,9,0,post_quali,gradient_boosting
+12,Dutch Grand Prix,GAS,Alpine F1 Team,0.0014799884452344118,10,0,post_quali,gradient_boosting
+12,Dutch Grand Prix,TSU,RB F1 Team,0.0014799884452344118,11,0,post_quali,gradient_boosting
+12,Dutch Grand Prix,HUL,Audi,0.0014799884452344118,12,0,post_quali,gradient_boosting
+12,Dutch Grand Prix,COL,Alpine F1 Team,0.0014799884452344118,13,0,post_quali,gradient_boosting
+12,Dutch Grand Prix,OCO,Haas F1 Team,0.0014799884452344118,14,0,post_quali,gradient_boosting
+12,Dutch Grand Prix,ALB,Williams,0.0014799884452344118,15,0,post_quali,gradient_boosting
+12,Dutch Grand Prix,SAI,Williams,0.0014799884452344118,16,0,post_quali,gradient_boosting
+12,Dutch Grand Prix,ALO,Aston Martin,0.0014799884452344118,17,0,post_quali,gradient_boosting
+12,Dutch Grand Prix,STR,Aston Martin,0.0014799884452344118,18,0,post_quali,gradient_boosting
+12,Dutch Grand Prix,BEA,Haas F1 Team,0.0014799884452344118,19,0,post_quali,gradient_boosting
+12,Dutch Grand Prix,BOT,Cadillac F1 Team,0.0014799884452344118,20,0,post_quali,gradient_boosting
+12,Dutch Grand Prix,PER,Cadillac F1 Team,0.0014799884452344118,21,0,post_quali,gradient_boosting
+13,Italian Grand Prix,GAS,Alpine F1 Team,0.5879014671054896,1,0,post_quali,gradient_boosting
+13,Italian Grand Prix,RUS,Mercedes,0.32878426259886634,2,0,post_quali,gradient_boosting
+13,Italian Grand Prix,LEC,Ferrari,0.000522730250580661,22,0,post_quali,gradient_boosting
+13,Italian Grand Prix,HAM,Ferrari,0.0006632998109414925,21,0,post_quali,gradient_boosting
+13,Italian Grand Prix,VER,Red Bull,0.0012882756857129868,6,0,post_quali,gradient_boosting
+13,Italian Grand Prix,PIA,McLaren,0.05150000617173716,3,0,post_quali,gradient_boosting
+13,Italian Grand Prix,COL,Alpine F1 Team,0.0011027863168039066,7,0,post_quali,gradient_boosting
+13,Italian Grand Prix,NOR,McLaren,0.0018258088745501692,5,0,post_quali,gradient_boosting
+13,Italian Grand Prix,LIN,RB F1 Team,0.0011027863168039066,8,0,post_quali,gradient_boosting
+13,Italian Grand Prix,BOR,Audi,0.0011027863168039066,9,0,post_quali,gradient_boosting
+13,Italian Grand Prix,BEA,Haas F1 Team,0.0011027863168039066,10,0,post_quali,gradient_boosting
+13,Italian Grand Prix,HUL,Audi,0.0011027863168039066,11,0,post_quali,gradient_boosting
+13,Italian Grand Prix,SAI,Williams,0.0011027863168039066,12,0,post_quali,gradient_boosting
+13,Italian Grand Prix,OCO,Haas F1 Team,0.0011027863168039066,13,0,post_quali,gradient_boosting
+13,Italian Grand Prix,TSU,RB F1 Team,0.0011027863168039066,14,0,post_quali,gradient_boosting
+13,Italian Grand Prix,BOT,Cadillac F1 Team,0.0011027863168039066,15,0,post_quali,gradient_boosting
+13,Italian Grand Prix,PER,Cadillac F1 Team,0.0011027863168039066,16,0,post_quali,gradient_boosting
+13,Italian Grand Prix,STR,Aston Martin,0.0011027863168039066,17,0,post_quali,gradient_boosting
+13,Italian Grand Prix,ANT,Mercedes,0.012075141066867082,4,1,post_quali,gradient_boosting
+13,Italian Grand Prix,ALB,Williams,0.0011027863168039066,18,0,post_quali,gradient_boosting
+13,Italian Grand Prix,ALO,Aston Martin,0.0011027863168039066,19,0,post_quali,gradient_boosting
+13,Italian Grand Prix,LAW,Red Bull,0.0011027863168039066,20,0,post_quali,gradient_boosting
+14,Spanish Grand Prix,NOR,McLaren,0.5310559654783797,1,0,post_quali,gradient_boosting
+14,Spanish Grand Prix,ANT,Mercedes,0.38663085166129446,2,1,post_quali,gradient_boosting
+14,Spanish Grand Prix,VER,Red Bull,0.037204680793544255,3,0,post_quali,gradient_boosting
+14,Spanish Grand Prix,HAM,Ferrari,0.0033437475536990196,4,0,post_quali,gradient_boosting
+14,Spanish Grand Prix,LEC,Ferrari,0.002609817989067867,7,0,post_quali,gradient_boosting
+14,Spanish Grand Prix,RUS,Mercedes,0.0033437475536990196,5,0,post_quali,gradient_boosting
+14,Spanish Grand Prix,PIA,McLaren,0.0027153427032187306,6,0,post_quali,gradient_boosting
+14,Spanish Grand Prix,LAW,Red Bull,0.0022063897511397763,8,0,post_quali,gradient_boosting
+14,Spanish Grand Prix,COL,Alpine F1 Team,0.0022063897511397763,9,0,post_quali,gradient_boosting
+14,Spanish Grand Prix,LIN,RB F1 Team,0.0022063897511397763,10,0,post_quali,gradient_boosting
+14,Spanish Grand Prix,HUL,Audi,0.0022063897511397763,11,0,post_quali,gradient_boosting
+14,Spanish Grand Prix,BOR,Audi,0.0022063897511397763,12,0,post_quali,gradient_boosting
+14,Spanish Grand Prix,OCO,Haas F1 Team,0.0022063897511397763,13,0,post_quali,gradient_boosting
+14,Spanish Grand Prix,GAS,Alpine F1 Team,0.0022063897511397763,14,0,post_quali,gradient_boosting
+14,Spanish Grand Prix,TSU,RB F1 Team,0.0022063897511397763,15,0,post_quali,gradient_boosting
+14,Spanish Grand Prix,ALB,Williams,0.0022063897511397763,16,0,post_quali,gradient_boosting
+14,Spanish Grand Prix,ALO,Aston Martin,0.0022063897511397763,17,0,post_quali,gradient_boosting
+14,Spanish Grand Prix,PER,Cadillac F1 Team,0.0022063897511397763,18,0,post_quali,gradient_boosting
+14,Spanish Grand Prix,BOT,Cadillac F1 Team,0.0022063897511397763,19,0,post_quali,gradient_boosting
+14,Spanish Grand Prix,SAI,Williams,0.0022063897511397763,20,0,post_quali,gradient_boosting
+14,Spanish Grand Prix,STR,Aston Martin,0.0022063897511397763,21,0,post_quali,gradient_boosting
+14,Spanish Grand Prix,BEA,Haas F1 Team,0.0022063897511397763,22,0,post_quali,gradient_boosting
+15,Azerbaijan Grand Prix,RUS,Mercedes,0.7813651712689204,1,1,post_quali,gradient_boosting
+15,Azerbaijan Grand Prix,LEC,Ferrari,0.019587066827825083,3,0,post_quali,gradient_boosting
+15,Azerbaijan Grand Prix,PIA,McLaren,0.00896800695281414,4,0,post_quali,gradient_boosting
+15,Azerbaijan Grand Prix,HAD,Red Bull,0.007960011079662006,6,0,post_quali,gradient_boosting
+15,Azerbaijan Grand Prix,NOR,McLaren,0.0037268677018334386,22,0,post_quali,gradient_boosting
+15,Azerbaijan Grand Prix,HAM,Ferrari,0.004885701414204027,21,0,post_quali,gradient_boosting
+15,Azerbaijan Grand Prix,GAS,Alpine F1 Team,0.007960011079662006,7,0,post_quali,gradient_boosting
+15,Azerbaijan Grand Prix,VER,Red Bull,0.00896800695281414,5,0,post_quali,gradient_boosting
+15,Azerbaijan Grand Prix,COL,Alpine F1 Team,0.007960011079662006,8,0,post_quali,gradient_boosting
+15,Azerbaijan Grand Prix,BEA,Haas F1 Team,0.007960011079662006,9,0,post_quali,gradient_boosting
+15,Azerbaijan Grand Prix,LAW,RB F1 Team,0.007960011079662006,10,0,post_quali,gradient_boosting
+15,Azerbaijan Grand Prix,ALB,Williams,0.007960011079662006,11,0,post_quali,gradient_boosting
+15,Azerbaijan Grand Prix,OCO,Haas F1 Team,0.007960011079662006,12,0,post_quali,gradient_boosting
+15,Azerbaijan Grand Prix,SAI,Williams,0.007960011079662006,13,0,post_quali,gradient_boosting
+15,Azerbaijan Grand Prix,LIN,RB F1 Team,0.007960011079662006,14,0,post_quali,gradient_boosting
+15,Azerbaijan Grand Prix,ANT,Mercedes,0.05309901268665866,2,0,post_quali,gradient_boosting
+15,Azerbaijan Grand Prix,BOR,Audi,0.007960011079662006,15,0,post_quali,gradient_boosting
+15,Azerbaijan Grand Prix,HUL,Audi,0.007960011079662006,16,0,post_quali,gradient_boosting
+15,Azerbaijan Grand Prix,BOT,Cadillac F1 Team,0.007960011079662006,17,0,post_quali,gradient_boosting
+15,Azerbaijan Grand Prix,PER,Cadillac F1 Team,0.007960011079662006,18,0,post_quali,gradient_boosting
+15,Azerbaijan Grand Prix,ALO,Aston Martin,0.007960011079662006,19,0,post_quali,gradient_boosting
+15,Azerbaijan Grand Prix,STR,Aston Martin,0.007960011079662006,20,0,post_quali,gradient_boosting
+16,Bahrain Grand Prix,VER,Red Bull,0.8477316820796802,1,1,post_quali,gradient_boosting
+16,Bahrain Grand Prix,HAM,Ferrari,0.018589623255808076,2,0,post_quali,gradient_boosting
+16,Bahrain Grand Prix,ANT,Mercedes,0.0031613573810340594,21,0,post_quali,gradient_boosting
+16,Bahrain Grand Prix,LEC,Ferrari,0.0044344329392489905,19,0,post_quali,gradient_boosting
+16,Bahrain Grand Prix,NOR,McLaren,0.003954893192869134,20,0,post_quali,gradient_boosting
+16,Bahrain Grand Prix,PIA,McLaren,0.007853549253148653,3,0,post_quali,gradient_boosting
+16,Bahrain Grand Prix,RUS,Mercedes,0.0031613573810340594,22,0,post_quali,gradient_boosting
+16,Bahrain Grand Prix,HAD,Red Bull,0.006064175219102881,18,0,post_quali,gradient_boosting
+16,Bahrain Grand Prix,GAS,Alpine F1 Team,0.007503494949862439,4,0,post_quali,gradient_boosting
+16,Bahrain Grand Prix,BOR,Audi,0.007503494949862439,5,0,post_quali,gradient_boosting
+16,Bahrain Grand Prix,LAW,RB F1 Team,0.007503494949862439,6,0,post_quali,gradient_boosting
+16,Bahrain Grand Prix,ALO,Aston Martin,0.007503494949862439,7,0,post_quali,gradient_boosting
+16,Bahrain Grand Prix,SAI,Williams,0.007503494949862439,8,0,post_quali,gradient_boosting
+16,Bahrain Grand Prix,STR,Aston Martin,0.007503494949862439,9,0,post_quali,gradient_boosting
+16,Bahrain Grand Prix,HUL,Audi,0.007503494949862439,10,0,post_quali,gradient_boosting
+16,Bahrain Grand Prix,BEA,Haas F1 Team,0.007503494949862439,11,0,post_quali,gradient_boosting
+16,Bahrain Grand Prix,OCO,Haas F1 Team,0.007503494949862439,12,0,post_quali,gradient_boosting
+16,Bahrain Grand Prix,ALB,Williams,0.007503494949862439,13,0,post_quali,gradient_boosting
+16,Bahrain Grand Prix,BOT,Cadillac F1 Team,0.007503494949862439,14,0,post_quali,gradient_boosting
+16,Bahrain Grand Prix,PER,Cadillac F1 Team,0.007503494949862439,15,0,post_quali,gradient_boosting
+16,Bahrain Grand Prix,COL,Alpine F1 Team,0.007503494949862439,16,0,post_quali,gradient_boosting
+16,Bahrain Grand Prix,LIN,RB F1 Team,0.007503494949862439,17,0,post_quali,gradient_boosting
+17,Singapore Grand Prix,VER,Red Bull,0.6179512223603236,1,1,post_quali,gradient_boosting
+17,Singapore Grand Prix,LEC,Ferrari,0.29445608040352556,2,0,post_quali,gradient_boosting
+17,Singapore Grand Prix,HAM,Ferrari,0.03288567711710764,3,0,post_quali,gradient_boosting
+17,Singapore Grand Prix,ANT,Mercedes,0.0011223211951752834,22,0,post_quali,gradient_boosting
+17,Singapore Grand Prix,NOR,McLaren,0.0017677703972599967,21,0,post_quali,gradient_boosting
+17,Singapore Grand Prix,PIA,McLaren,0.003159649297909953,4,0,post_quali,gradient_boosting
+17,Singapore Grand Prix,GAS,Alpine F1 Team,0.0030730027769878985,6,0,post_quali,gradient_boosting
+17,Singapore Grand Prix,LAW,RB F1 Team,0.0030730027769878985,7,0,post_quali,gradient_boosting
+17,Singapore Grand Prix,LIN,RB F1 Team,0.0030730027769878985,8,0,post_quali,gradient_boosting
+17,Singapore Grand Prix,HUL,Audi,0.0030730027769878985,9,0,post_quali,gradient_boosting
+17,Singapore Grand Prix,BEA,Haas F1 Team,0.0030730027769878985,10,0,post_quali,gradient_boosting
+17,Singapore Grand Prix,OCO,Haas F1 Team,0.0030730027769878985,11,0,post_quali,gradient_boosting
+17,Singapore Grand Prix,SAI,Williams,0.0030730027769878985,12,0,post_quali,gradient_boosting
+17,Singapore Grand Prix,BOR,Audi,0.0030730027769878985,13,0,post_quali,gradient_boosting
+17,Singapore Grand Prix,COL,Alpine F1 Team,0.0030730027769878985,14,0,post_quali,gradient_boosting
+17,Singapore Grand Prix,ALB,Williams,0.0030730027769878985,15,0,post_quali,gradient_boosting
+17,Singapore Grand Prix,PER,Cadillac F1 Team,0.0030730027769878985,16,0,post_quali,gradient_boosting
+17,Singapore Grand Prix,BOT,Cadillac F1 Team,0.0030730027769878985,17,0,post_quali,gradient_boosting
+17,Singapore Grand Prix,RUS,Mercedes,0.0024755910529571682,20,0,post_quali,gradient_boosting
+17,Singapore Grand Prix,ALO,Aston Martin,0.0030730027769878985,18,0,post_quali,gradient_boosting
+17,Singapore Grand Prix,STR,Aston Martin,0.0030730027769878985,19,0,post_quali,gradient_boosting
+17,Singapore Grand Prix,HAD,Red Bull,0.003159649297909953,5,0,post_quali,gradient_boosting
