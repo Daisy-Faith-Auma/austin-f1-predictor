@@ -49,7 +49,7 @@ def is_dnf(classified_position):
 def base_table(race):
     """One row per race entry. Built from race results so nobody is dropped by a quali join."""
     df = race[ID_COLUMNS + ["GridPosition", "Position", "ClassifiedPosition"]].copy()
-    df["grid_position"] = df["GridPosition"].astype(int)
+    df["grid_position"] = df["GridPosition"].astype("Int64")  # NA for an upcoming race before quali
     df["finish"] = df["Position"]
     df["dnf"] = is_dnf(df["ClassifiedPosition"]).astype(int)
     df[TARGET] = (df["Position"] == 1).astype(int)
@@ -118,8 +118,13 @@ def add_points_share_before(df, standings):
     return df
 
 
-def build_features():
-    race, quali, standings = load_inputs()
+def build_features(inputs=None):
+    """Feature table for every race in `inputs` (race, quali, standings); loads data/ by default.
+
+    An upcoming race can be included as race rows with no result (Position NaN): its features
+    only use earlier rounds, exactly as for the completed races.
+    """
+    race, quali, standings = inputs if inputs is not None else load_inputs()
     df = base_table(race)
     df = add_quali_gap(df, quali)
     df = add_driver_form(df)
